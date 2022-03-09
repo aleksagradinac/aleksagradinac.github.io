@@ -15,6 +15,8 @@ html,body {
     background-color:white;
     padding-right: 100px;
    text-align: right;
+   width: 1117px;
+height: 629px;
 }
 
 .contajner img {
@@ -22,6 +24,7 @@ html,body {
     width: 455px;
     height: 521px;
     left: 101px;
+    
 }
 .contajner h1 {
     font-weight:600;
@@ -30,12 +33,12 @@ html,body {
    height: 54px;
    font-weight: 325px;
    text-align: right;
-   padding-right: 300px;
+  
 }
 .contajner p {
     font-weight: 500;
     font-size: 14px;
-    padding-right: 150px;
+  
     text-align: right;
 }
 
@@ -44,7 +47,7 @@ html,body {
     font-size: 14px;
     font-weight: 600;
     line-height: 21px;
-    padding-right:500px;
+   
     text-align: right;
     }
     .contajner p1 {
@@ -52,54 +55,56 @@ html,body {
     line-height: 18px;
     font-style: normal;
     font-weight: normal;
-    padding-right: 100px;
+   
     text-align: right;
     }
     .contajner h3 {
         font-size: 14px;
         font-weight: 600;
         font-style: normal;
-        padding-right: 450px;
+       
         text-align: right;
     }
     .contajner p2 {
         font-size: 14px;
         font-weight:normal;
         font-style: normal;
-        padding-right:238px;
+      
         text-align: right;
     }
     .contajner h4 {
         font-style: normal;
      font-weight: 600;
      font-size: 14px;
-     padding-right: 350px;
+    
      text-align: right;
     }
     .contajner p3 {
      font-style: normal;
     font-weight: normal;
      font-size: 12px;
-     padding-right: 238px;
+   
      text-align: right;
     }
 .contajner h5 {
     font-style: normal;
 font-weight: 600;
 font-size: 14px;
-padding-right: 300px;
+
 text-align: right;
 }
 .contajner p4 {
     font-style: normal;
 font-weight: normal;
 font-size: 12px;
-padding-right:238px;
+
 text-align: right;
 }
 .baner {
     background-color:white;
     text-align: right;
+    width: 1280px;
+height: 580px;
 }
 .baner img {
 position: absolute;
@@ -107,12 +112,13 @@ width: 607px;
 height: 472px; 
 left: 42px;
 }
+
 .baner h1 {
     font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
-padding-right: 250px;
+
 }
 .baner p {
     font-family: Montserrat;
@@ -130,4 +136,46 @@ font-size: 14px;
     float: right;
     font-weight: 600;
     font-size: 14px;
+}
+.navigation {
+width: 908px;
+height: 593px;
+}
+.navigation h1 {
+   text-align: right;
+   font-size: 36px;
+line-height: 44px;
+color: #262626;
+}
+.navigation img {
+    Width:430,59px;
+Height:482,58px;
+}
+.penultimate {
+    width: 1280px;
+height: 286px;
+background-color: #EBFAF4;
+}
+.penultimate h1 {
+    font-style: normal;
+font-weight: 500;
+font-size: 36px;
+}
+.penultimate p {
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+}
+.navigation-button3 {
+    background-color:#00D285;
+    color: white;
+    text-transform: uppercase;
+    padding: 19px 32px;
+    border-radius: 100px;
+    display: flex;
+    float: right;
+    font-weight: 600;
+    font-size: 14px;
+
 }
