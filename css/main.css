@@ -5,11 +5,46 @@ html,body {
     font-family: 'Montserrat', sans-serif;
 }
 .start {
-    background-color: 000000;
-    width: 50%;
+    background-color:black;
+    width: 1117px;
+    height: 629px;
+    text-align: right;
 }
 .start h1 {
     color: white;
+    font-style: normal;
+font-weight: 700;
+font-size: 53px;
+text-align: left;
+}
+.start img {
+    text-align: right;
+    width: 333px;
+    height: 415.97px;
+}
+.navigation-button6 {
+    background-color:#00D285;
+    color: white;
+    text-transform: uppercase;
+    padding: 19px 32px;
+    border-radius: 100px;
+    display: flex;
+    float: left;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+.navigation-button8{
+    background-color:white;
+    color:black;
+    text-transform: uppercase;
+    padding: 19px 32px;
+    border-radius: 100px;
+    display: flex;
+    float: left;
+    font-weight: 600;
+    font-size: 14px;
+
 }
 .contajner {
     background-color:white;
@@ -102,22 +137,26 @@ text-align: right;
 }
 .baner {
     background-color:white;
-    text-align: right;
-    width: 1280px;
-height: 580px;
+text-align: right;
+width: 1280px;
+    height: 580px;
 }
 .baner img {
-position: absolute;
-width: 607px;
-height: 472px; 
-left: 42px;
+    position: absolute;
+    width: 607px;
+    height: 472px;
+    left: 42px;
 }
-
 .baner h1 {
     font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
+color: black;
+text-align: right;
+
+
+
 
 }
 .baner p {
@@ -125,6 +164,10 @@ font-size: 36px;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
+
+
+
+
 }
 .navigation-button {
     background-color:#00D285;
@@ -136,6 +179,7 @@ font-size: 14px;
     float: right;
     font-weight: 600;
     font-size: 14px;
+    text-align:right ;
 }
 .navigation {
 width: 908px;
@@ -150,6 +194,108 @@ color: #262626;
 .navigation img {
     Width:430,59px;
 Height:482,58px;
+
+}
+.comment {
+    background-color: white;
+}
+.comment h1 {
+    font-style: normal;
+font-weight: 700;
+font-size: 36px;
+text-align: center;
+color: black;
+}
+.comment p {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+text-align: center;
+}
+.part1{
+    display: inline-block;
+    width: 33.33%;
+}
+.part1 h1 {
+    font-style: normal;
+font-weight: 600;
+font-size: 24px;
+}
+.part1 p{
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+}
+.part2 {
+    display: inline-block;
+    width: 33.33%;
+}
+.part2 h1 {
+    font-style: normal;
+font-weight: 600;
+font-size: 24px;
+}
+.part2 p {
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+}
+.part3 {
+    display: inline-block;
+    width: 20%;
+}
+.part3 h1 {
+    font-style: normal;
+font-weight: 600;
+font-size: 24px;
+}
+.part3 p {
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+}
+.part4 {
+    display: inline-block;
+    width: 33.33%;
+}
+.part4 h1 {
+    font-style: normal;
+font-weight: 600;
+font-size: 24px;
+}
+.part4 p {
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+}
+.part5 {
+    display: inline-block;
+    width: 33.33%;
+}
+.part5 h1 {
+    font-style: normal;
+font-weight: 600;
+font-size: 24px;
+}
+.part5 p {
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+}
+.part6 {
+    display: inline-block;
+    width: 20%;
+}
+.part6 h1 {
+    font-style: normal;
+font-weight: 600;
+font-size: 24px;
+}
+.part p {
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
 }
 .penultimate {
     width: 1280px;
@@ -160,6 +306,7 @@ background-color: #EBFAF4;
     font-style: normal;
 font-weight: 500;
 font-size: 36px;
+color: black;
 }
 .penultimate p {
     font-family: Poppins;
