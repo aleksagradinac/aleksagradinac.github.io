@@ -181,6 +181,22 @@ font-size: 14px;
     font-size: 14px;
     text-align:right ;
 }
+.center {
+    background-color: white;
+    text-align: left;
+}
+.center h1 {
+    font-style: normal;
+font-weight: 600;
+font-size: 18px;
+color: black;
+}
+.button10 {
+    position: absolute;
+width: 529px;
+height: 285px;
+border-radius:10px;
+}
 .navigation {
 width: 908px;
 height: 593px;
