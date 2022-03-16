@@ -5,25 +5,59 @@ html,body {
     font-family: 'Montserrat', sans-serif;
 }
 .start {
-    background-color:black;
-    width: 1117px;
-    height: 629px;
-    text-align: right;
+    background-color: 000000;
+    width: 1280px;
+   height: 741px;
+   position: absolute;
+   padding-left: 0px;
+   padding-top: 0px;
+   padding-right: 0px;  
+   text-align: right;
 }
 .start h1 {
-    color: white;
+    position: absolute;
+    width: 549px;
+    height: 110px;
+    padding-top:188px;
+padding-left:97px;
+    padding-right: 630px;
+    padding-bottom: 398px;
+    font-family: 'Poppins';
     font-style: normal;
-font-weight: 700;
-font-size: 53px;
-text-align: left;
+    font-weight: 700;
+    font-size: 53px;
+    line-height:50px;
+    color: #FFFFFF;
+}
+.start p{
+    position: absolute;
+    width: 519px;
+    height: 113px;
+   padding-left: 100px;
+    padding-top: 319px;
+    padding-right: 661px;
+    padding-bottom: 264px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
 }
 .start img {
     text-align: right;
-    width: 333px;
-    height: 415.97px;
+    position: absolute;
+    width: 455px;
+    height: 521px;
+    padding-left: 763px;
+    padding-top: 156px;
+    padding-right: 62px;
+    padding-bottom: 19px;
+    background: url(lagos-techie-kwzWjTnDPLk-unsplash.jpg);
+    border-radius: 10px 0px 10px 10px;
 }
-.navigation-button6 {
-    background-color:#00D285;
+.navgation-button6{
+background-color: #00D285;
     color: white;
     text-transform: uppercase;
     padding: 19px 32px;
@@ -32,11 +66,12 @@ text-align: left;
     float: left;
     font-weight: 600;
     font-size: 14px;
-
 }
-.navigation-button8{
-    background-color:white;
-    color:black;
+
+
+.navigation-button8 {
+    background-color: white;
+    color: black;
     text-transform: uppercase;
     padding: 19px 32px;
     border-radius: 100px;
@@ -44,102 +79,96 @@ text-align: left;
     float: left;
     font-weight: 600;
     font-size: 14px;
-
 }
+
+
+
 .contajner {
-    background-color:white;
-    padding-right: 100px;
-   text-align: right;
-   width: 1117px;
-height: 629px;
+    background-color: white;
+    padding-left: 101px;
+    padding-top:875px;
+    padding-right:62px;
+    text-align: right;
+  width: 1117px;
+  height: 621px;
 }
-
+.contajner h1 {
+    font-weight: 600;
+    font-size: 36px;
+    color: #000D2F;
+    height: 54px;
+    font-weight: 325px;
+    text-align: right;
+}
+.contajner p {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: right;
+}
 .contajner img {
     position: absolute;
     width: 455px;
     height: 521px;
     left: 101px;
-    
 }
-.contajner h1 {
-    font-weight:600;
-   font-size:36px;
-   color: #000D2F;
-   height: 54px;
-   font-weight: 325px;
-   text-align: right;
-  
-}
-.contajner p {
-    font-weight: 500;
-    font-size: 14px;
-  
-    text-align: right;
-}
-
 
 .contajner h2 {
     font-size: 14px;
     font-weight: 600;
     line-height: 21px;
-   
     text-align: right;
-    }
-    .contajner p1 {
+}
+.contajner p1 {
     font-size: 12px;
     line-height: 18px;
     font-style: normal;
     font-weight: normal;
-   
     text-align: right;
-    }
-    .contajner h3 {
-        font-size: 14px;
-        font-weight: 600;
-        font-style: normal;
-       
-        text-align: right;
-    }
-    .contajner p2 {
-        font-size: 14px;
-        font-weight:normal;
-        font-style: normal;
-      
-        text-align: right;
-    }
-    .contajner h4 {
-        font-style: normal;
-     font-weight: 600;
-     font-size: 14px;
-    
-     text-align: right;
-    }
-    .contajner p3 {
-     font-style: normal;
+}
+.contajner h3 {
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: right;
+}
+
+.contajner p2 {
+    font-size: 14px;
     font-weight: normal;
-     font-size: 12px;
-   
-     text-align: right;
-    }
+    font-style: normal;
+    text-align: right;
+}
+.contajner h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: right;
+}
+.contajner p3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: right;
+}
 .contajner h5 {
     font-style: normal;
-font-weight: 600;
-font-size: 14px;
-
-text-align: right;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: right;
 }
 .contajner p4 {
     font-style: normal;
-font-weight: normal;
-font-size: 12px;
-
-text-align: right;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: right;
 }
 .baner {
-    background-color:white;
-text-align: right;
-width: 1280px;
+    background-color: white;
+    text-align: right;
+    width: 1280px;
     height: 580px;
+    padding-right: 62px;
+    padding-left: 101px;
 }
 .baner img {
     position: absolute;
@@ -149,26 +178,13 @@ width: 1280px;
 }
 .baner h1 {
     font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-color: black;
-text-align: right;
-
-
-
-
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: black;
+    text-align: right;
 }
-.baner p {
-    font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
 
-
-
-
-}
 .navigation-button {
     background-color:#00D285;
     color: white;
@@ -198,14 +214,29 @@ height: 285px;
 border-radius:10px;
 }
 .navigation {
-width: 908px;
-height: 593px;
+    width: 1280px;
+    height: 580px;
+text-align: left;
 }
 .navigation h1 {
    text-align: right;
    font-size: 36px;
 line-height: 44px;
 color: #262626;
+}
+.navigation p {
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+text-align: right;
+width: 550px;
+height: 202px;
+padding-left: 680px;
+padding-right: 50px;
+padding-bottom: 238px;
+color: black;
+
 }
 .navigation img {
     Width:430,59px;
@@ -346,7 +377,6 @@ font-size: 18px;
     float: right;
     font-weight: 600;
     font-size: 14px;
-
 }
 .last {
     background-color: black;
