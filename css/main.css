@@ -4,15 +4,13 @@ h1,h2,h3,h4,h5,h6 {
 html,body {
     font-family: 'Montserrat', sans-serif;
 }
-.start {
-    background-color: 000000;
+.start img {
     width: 1280px;
-   height: 741px;
-   position: absolute;
-   padding-left: 0px;
-   padding-top: 0px;
-   padding-right: 0px;  
-   text-align: right;
+height: 736px;
+}
+.first-img {
+    width: 455px;
+height: 517.48px;
 }
 .start h1 {
     position: absolute;
@@ -30,13 +28,6 @@ padding-left:97px;
     color: #FFFFFF;
 }
 .start p{
-    position: absolute;
-    width: 519px;
-    height: 113px;
-   padding-left: 100px;
-    padding-top: 319px;
-    padding-right: 661px;
-    padding-bottom: 264px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -44,18 +35,9 @@ padding-left:97px;
     line-height: 17px;
     color: #FFFFFF;
 }
-.start img {
-    text-align: right;
-    position: absolute;
-    width: 455px;
-    height: 521px;
-    padding-left: 763px;
-    padding-top: 156px;
-    padding-right: 62px;
-    padding-bottom: 19px;
-    background: url(lagos-techie-kwzWjTnDPLk-unsplash.jpg);
-    border-radius: 10px 0px 10px 10px;
-}
+
+
+
 .navgation-button6{
 background-color: #00D285;
     color: white;
@@ -71,7 +53,7 @@ background-color: #00D285;
 
 .navigation-button8 {
     background-color: white;
-    color: black;
+color: #262626;
     text-transform: uppercase;
     padding: 19px 32px;
     border-radius: 100px;
@@ -199,6 +181,10 @@ background-color: #00D285;
 }
 .center {
     background-color: white;
+    width: 1280px;
+    height: 580px;
+    padding-right: 62px;
+    padding-left: 101px;
     text-align: left;
 }
 .center h1 {
@@ -206,13 +192,24 @@ background-color: #00D285;
 font-weight: 600;
 font-size: 18px;
 color: black;
+text-align: right;
 }
-.button10 {
+.center p{
+    padding-left: 680px;
+    padding-right: 50px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+}
+.center img {
     position: absolute;
-width: 529px;
-height: 285px;
-border-radius:10px;
+    width: 607px;
+    height: 472px;
+    left: 42px;
 }
+
 .navigation {
     width: 1280px;
     height: 580px;
@@ -226,25 +223,51 @@ color: #262626;
 }
 .navigation p {
     font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
-text-align: right;
-width: 550px;
-height: 202px;
-padding-left: 680px;
-padding-right: 50px;
-padding-bottom: 238px;
-color: black;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
 
 }
 .navigation img {
-    Width:430,59px;
-Height:482,58px;
+    position: absolute;
+    width: 607px;
+    height: 472px;
+    padding-left: 42px;
+}
+.navigation-button10 {
+    background-color:#00D285;
+    color: white;
+    text-transform: uppercase;
+    padding: 19px 32px;
+    border-radius: 100px;
+    display: flex;
+    float: right;
+    font-weight: 600;
+    font-size: 14px;
+    text-align:right ;
 
 }
+.navigation-button11{
+    background-color:#00D285;
+    color: white;
+    text-transform: uppercase;
+    padding: 19px 32px;
+    border-radius: 100px;
+    display: flex;
+    float: right;
+    font-weight: 600;
+    font-size: 14px;
+    text-align:right ;
+}
+
 .comment {
     background-color: white;
+
+    padding-left: 66px;
+    padding-right: 63px;
+    
+    
 }
 .comment h1 {
     font-style: normal;
@@ -379,5 +402,16 @@ font-size: 18px;
     font-size: 14px;
 }
 .last {
-    background-color: black;
+    background-color:black;
+    width: 1280px;
+height: 563px;
+}
+.last img {
+    width: 1280px;
+    height: 563px;
+}
+.last h1 {
+    width: 109px;
+height: 19.25px;
+padding-left: 183px;
 }
