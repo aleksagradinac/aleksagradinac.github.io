@@ -5,12 +5,14 @@ html,body {
     font-family: 'Montserrat', sans-serif;
 }
 .start img {
-    width: 1280px;
 height: 736px;
 }
 .first-img {
-    width: 455px;
-height: 517.48px;
+    width: 515px;
+    height: 581.05px;
+   padding-left: 703px;
+padding-top: 154.95px;
+padding-right:62px;
 }
 .start h1 {
     position: absolute;
@@ -106,6 +108,10 @@ color: #262626;
     font-style: normal;
     font-weight: normal;
     text-align: right;
+}
+.second-img {
+    width: 50px;
+height: 50px;
 }
 .contajner h3 {
     font-size: 14px;
