@@ -393,10 +393,11 @@ color: black;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
+color:#C4C4C4;
 }
 .navigation-button3 {
     background-color:#00D285;
-    color: white;
+    color: #FFFFFF;
     text-transform: uppercase;
     padding: 19px 32px;
     border-radius: 100px;
