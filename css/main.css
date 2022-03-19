@@ -5,7 +5,8 @@ html,body {
     font-family: 'Montserrat', sans-serif;
 }
 .start img {
-height: 736px;
+    width: 1280px;
+    height: 736px;
 
 }
 .first-img {
@@ -68,7 +69,7 @@ color: #262626;
 
 
 .contajner {
-    background-color: white;
+    background-color:white;
     padding-left: 101px;
     padding-right:62px;
     text-align: right;
@@ -150,7 +151,7 @@ height: 50px;
     text-align: right;
 }
 .baner {
-    background-color: white;
+    background-color: rgb(241, 250, 245);
     text-align: right;
     width: 1280px;
     height: 580px;
@@ -219,6 +220,7 @@ line-height: 17px;
     width: 1280px;
     height: 580px;
 text-align: left;
+background-color: rgb(241, 250, 245);;
 }
 .navigation h1 {
    text-align: right;
