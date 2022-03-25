@@ -758,11 +758,10 @@ line-height: 21px;
 font-size: 14px;
 line-height: 21px;
 }
-.section-six {
+.section-six { 
     padding-top: 120px;
     padding-bottom: 120px;
     display: flex;
-    width: 80%;
     margin: 0 auto;
 background-color: EBFAF4;
 }
@@ -776,18 +775,28 @@ color:C4C4C4;
 .section-six-right{
     width: 50%;
 }
-.section-seven {
+
+.section-seven1 {
     background-image: url("../img/world.png");
     background-position: center;
     background-size: cover;
     display: flex;
+    padding-bottom: 120px;
   }
-  .sectin-seven-left {
-      width: 50%;
-  }
-  .section-seven-left-part1 {
-      width: 25%;
-  }
-  .section-seven-left-part2 {
-      width: 25%;
-  }
+.navigation1 {
+    display: inline-block;
+    width: 25%;
+    
+}
+.navigation2 {
+    display: inline-block;
+    width: 25%;
+}
+.navigation3 {
+    display: inline-block;
+    width: 25%;
+}
+.navigation4 {
+    display: inline-block;
+    width: 25%;
+}
