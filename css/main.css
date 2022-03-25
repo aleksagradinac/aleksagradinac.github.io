@@ -673,13 +673,44 @@ line-height: 21px;
     display: inline-block;
     width: 33.33%;
 }
+.section-five-top-part1 h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;    
+}
+.section-five-top-part1 p {
+    font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+}
 .section-five-top-part2 {
     display: inline-block;
     width: 33.3%;
 }
+.section-five-top-part2 h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    
+}
+.section-five-top-part2 p {
+    font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+}
 .section-five-top-part3 {
     display:inline-block;
     width: 20%;
+}
+.section-five-top-part3 h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;    
+}
+.section-five-top-part3 p {
+    font-weight: 400;
+font-size: 14px;
+line-height: 21px;
 }
 .section-five-buttom {
     background-color: rgba(235, 250, 244, 0.3);
@@ -688,13 +719,44 @@ line-height: 21px;
     display: inline-block;
     width: 33.33%;
 }
+.section-five-buttom-part1 h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;    
+}
+.section-five-buttom-part1 p {
+    font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+}
 .section-five-buttom-part2 {
     display: inline-block;
     width: 33.3%;
 }
+.section-five-buttom-part2 h5 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;    
+}
+.section-five-buttom-part2 p {
+    font-weight: 400;
+font-size: 14px;
+line-height: 21px; 
+}
 .section-five-buttom-part3 {
     display:inline-block;
     width: 20%;
+}
+.section-five-buttom-part3 h6 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    
+}
+.section-five-buttom-part3 p {
+    font-weight: 400;
+font-size: 14px;
+line-height: 21px;
 }
 .section-six {
     padding-top: 120px;
@@ -708,12 +770,24 @@ background-color: EBFAF4;
     width: 50%;
     padding-right: 120px;
 }
+.section-six-left p {
+color:C4C4C4;
+}
 .section-six-right{
     width: 50%;
 }
-
-
-
-.section-seven{
-    background-image:url("../img/Footer.png");
-}
+.section-seven {
+    background-image: url("../img/world.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+  }
+  .sectin-seven-left {
+      width: 50%;
+  }
+  .section-seven-left-part1 {
+      width: 25%;
+  }
+  .section-seven-left-part2 {
+      width: 25%;
+  }
