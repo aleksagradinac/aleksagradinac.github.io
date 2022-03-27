@@ -729,12 +729,11 @@ color:C4C4C4;
     background-image: url("../img/Group\ 8990.png");
     background-position: center;
     background-size: cover;
-    display: flex;
-    padding-bottom: 120px;
+    padding-bottom: 50px;
   }
   .section-seven-content {
     display: flex;
-    padding-bottom: 120px;
+    padding-top: 50px;
     width: 80%;
     margin: 0 auto;
      
@@ -748,8 +747,11 @@ color:C4C4C4;
     color: white;
     font-size:16px;
 }
-.navigation1 p {
+.copyright  {
     color: white;
+    padding-top:120px;
+    width: 80%;
+    margin: 0 auto;
 }
 .navigation1 a {
     color: #C4C4C4;
@@ -758,6 +760,9 @@ color:C4C4C4;
     padding-bottom: 8px;
     font-size: 13px;
     
+}
+.navigation1 p {
+    color: white;
 }
 .navigation2 {
     display: inline-block;
@@ -776,4 +781,26 @@ color:C4C4C4;
 }
 .quick-links a {
     margin: 6px;
+}
+.section-seven-item {
+    display: flex;
+    align-items: center;
+}
+.section-seven-item img {
+    margin-right: 10px;
+    width: 24px;
+}
+.section-seven-item p {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.section-seven-item p a {
+    color: #00d285;
+    padding-left: 2px;
+    padding-bottom: 0px;
+    font-size: 12px;
+}
+.logo {
+    margin-top: 30px;
 }
