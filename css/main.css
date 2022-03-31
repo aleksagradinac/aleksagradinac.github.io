@@ -1026,6 +1026,7 @@ div {
 .section-one-left-img {
     width: 324px;
     height: 324px;
+    padding-bottom: 100px;
 }
 .section-one-right {
     width: 100%;
