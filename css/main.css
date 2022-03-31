@@ -894,4 +894,66 @@ color:C4C4C4;
         margin-right: 34px;
         display: inline-block;
     }
+    .section-seven {
+        background-image: url(../img/Group\ 8990.png);
+        background-position: center;
+        background-size: cover;
+        padding-bottom: 50px;
+    }
+    .section-seven-content {
+        display: flex;
+        padding-top: 50px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .navigation1 {
+        display: inline-block;
+        width: 21%;
+    }
+    .navigation1 h1 {
+        color: white;
+        font-size: 12px;
+    }
+    .navigation1 a {
+        color: #C4C4C4;
+        display: block;
+        text-decoration: none;
+        padding-bottom: 8px;
+        font-size: 10px;
+    }
+    .navigation1 img {
+        width: 25px;
+    height: 25px;
 }
+.section-seven-item {
+    display: flex;
+    align-items: center;
+}
+.section-seven-item img {
+    margin-right: 10px;
+    width: 12px;
+}
+.section-seven-item p {
+    display: flex;
+    align-items: center;
+    font-size: 8px;
+}
+.section-seven-item p a {
+    color: #00d285;
+    padding-left: 2px;
+    padding-bottom: 0px;
+    font-size: 6px;
+}
+.logo {
+    margin-top: 30px;
+    width: 70px;
+}
+.copyright {
+    color: white;
+    padding-top: 120px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 10px;
+}
+
+    }
