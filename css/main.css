@@ -740,8 +740,10 @@ color:C4C4C4;
   }
 .navigation1 {
     display: inline-block;
-    width: 25%;
-
+    width: 21%;
+}
+.quick-links{
+    display: none;
 }
 .navigation1 h1 {
     color: white;
