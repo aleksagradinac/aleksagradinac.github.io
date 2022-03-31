@@ -912,6 +912,9 @@ color:C4C4C4;
         display: inline-block;
         width: 21%;
     }
+    .quick-links {
+        display: block;
+    }
     .quick-links a {
         margin: 6px;
     }
@@ -980,8 +983,7 @@ color:C4C4C4;
     line-height: 21px;
 }
     .section-five-top {
-        /* display: flex; */
-               flex: none;
+    display: block;    
     }
 .section-five-top-item {
     flex: 1;
