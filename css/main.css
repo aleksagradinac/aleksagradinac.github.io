@@ -912,6 +912,9 @@ color:C4C4C4;
         display: inline-block;
         width: 21%;
     }
+    .quick-links {
+        display: none;
+    }
     .quick-links a {
         margin: 6px;
     }
