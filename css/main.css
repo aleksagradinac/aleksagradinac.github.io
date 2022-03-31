@@ -734,7 +734,7 @@ color:C4C4C4;
   .section-seven-content {
     display: flex;
     padding-top: 50px;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
      
   }
@@ -747,7 +747,7 @@ color:C4C4C4;
 }
 .navigation1 h1 {
     color: white;
-    font-size:16px;
+    font: size 12px;
 }
 .copyright  {
     color: white;
@@ -911,6 +911,9 @@ color:C4C4C4;
     .navigation1 {
         display: inline-block;
         width: 21%;
+    }
+    .quick-links a {
+        margin: 6px;
     }
     .navigation1 h1 {
         color: white;
