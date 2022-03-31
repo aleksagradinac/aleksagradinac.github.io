@@ -995,7 +995,7 @@ color:C4C4C4;
     line-height: 21px;
 }
 .section-five-top {
-    flex: none;
+    display: none;
 }
 
     }
