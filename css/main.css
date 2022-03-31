@@ -912,9 +912,6 @@ color:C4C4C4;
         display: inline-block;
         width: 21%;
     }
-    .quick-links {
-        display: none;
-    }
     .quick-links a {
         margin: 6px;
     }
@@ -998,7 +995,7 @@ color:C4C4C4;
     line-height: 21px;
 }
 .section-five-top {
-    display: none;
+    flex: none;
 }
 
     }
