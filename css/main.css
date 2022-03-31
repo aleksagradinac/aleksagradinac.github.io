@@ -1020,7 +1020,7 @@ div {
     margin: 0 auto;
 }
 .section-one-left {
-    width: 50%;
+    width: 100%;
     padding-right: 120px;
 }
 .section-one-left {
@@ -1040,6 +1040,9 @@ div {
     font-weight: 500;
     line-height: 30px;
     color: #000D2F;
+}
+.images-list {
+    display: block;
 }
 .images-list-item {
     display: flex;
