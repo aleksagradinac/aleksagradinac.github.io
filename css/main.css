@@ -1062,5 +1062,75 @@ div {
     line-height: 21px;
     font-weight: 400;
 }
+.section-three {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    background: rgba(0, 47, 166, 0.05);
+}
+.section-three-content {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.section-three-left {
+    width: 100%;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.green-line {
+    background: #00D285;
+    width: 44px;
+    display: inline-block;
+    height: 2px;
+}
+.section-three-left h4 {
+    margin: 0;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.section-three-left p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000D2F;
+}
+.bottom-title {
+    padding-top: 140px;
+}
+.section-three-right {
+    width: 100%;
+}
+.white-card {
+    width: 230px;
+    height: 436px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 30px 44px;
+    box-shadow: 34px 42px 0px -8px rgb(225 225 225);
+}
+.white-card img {
+    width: 60px;
+    height: 60px;
+}
+.white-card p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40px;
+}
+.white-card .name {
+    display: block;
+    margin-bottom: 15px;
+}
+.white-card .position {
+    display: block;
+    width: 100%;
+}
+.white-card .position span {
+    text-align: right;
+    float: right;
+}
 
 }
