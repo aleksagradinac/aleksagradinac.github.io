@@ -528,6 +528,7 @@ padding-left: 183px;
 .images-list-item img{
     margin-top: 10px;
     padding-right: 20px;
+    width: 50px;
 }
 .images-list-item p{
     font-size: 16px;
