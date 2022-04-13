@@ -807,7 +807,7 @@ color:C4C4C4;
 .logo {
     margin-top: 30px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
 *{
     box-sizing: border-box;
 }
