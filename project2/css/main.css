@@ -1,0 +1,41 @@
+h1
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Quicksand", sans-serif;
+}
+html,
+body {
+  font-family: "Quicksand", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.top-wiew-port {
+    background-color: white;
+}
+.top-wiew-port-left {
+    display: flex;
+    padding-left: 120px;
+}
+.top-wiew-port-left img {
+  width: 39px;
+  height: 39px;
+  margin-right: 20px;
+  margin-top: 20px;
+} 
+.top-wiew-port-left p {
+  margin-right: 50px;
+}
+.top-wiew-port-left input {
+  width: 497px;
+  height: 42px;
+  margin-top: 16px;
+}
+.top-wiew-port-left button {
+  width: 55px;
+  height: 42px;
+  margin-top: 16px;
+  background-color: #3BB77E;
+}
