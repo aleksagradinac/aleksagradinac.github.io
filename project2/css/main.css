@@ -32,10 +32,41 @@ body {
   width: 497px;
   height: 42px;
   margin-top: 16px;
+  background-color: #F3F3F3;
+  border: none;
 }
 .top-wiew-port-left button {
   width: 55px;
   height: 42px;
   margin-top: 16px;
   background-color: #3BB77E;
+  border: none;
+}
+.top-wiew-port-left .dropbtn {
+width: 112px;
+background-color: #F3F3F3;
+border: none;
+}
+.top-wiew-port-right {
+  display: flex;
+}
+.top-wiew-port-right img {
+  width: 28px;
+  height: 30px;
+  margin-left: 15px;
+}
+.part1 {
+  display: flex;
+}
+.part1 p {
+  padding-top: 10px;
+}
+.top-wiew-port-right .dropbtn{
+  width: 65px;
+  background-color: white;
+  border: none;
+}
+.part2 {
+  display: flex;
+  width: 166px;
 }
