@@ -70,3 +70,80 @@ border: none;
   display: flex;
   width: 166px;
 }
+.section-one {
+  background-color: white;
+  display: flex;
+}
+.part3 {
+background-color: #3BB77E;
+  margin-left: 112px;
+  width: 218px;
+  height: 45px;
+  text-align: center;
+  display: flex;
+}
+.section-one img {
+  padding-top: 14px;
+  width: 24px;
+  height: 24px;
+}
+.part3 .dropbtn {
+  border: none;
+  background-color: #3BB77E;
+  color: white;
+
+}
+.navigation {
+  margin-left: 89px;
+  display: flex;
+}
+.navigation img {
+  width: 20px;
+  height: 20px;
+}
+.navigation p {
+  font-size: 16px;
+  font-weight: 500 Medium;
+
+
+} 
+.parts1 {
+  display: flex;
+}
+.parts1 p {
+  margin-left: 16px;
+  color: #3BB77E;
+}
+.parts2 {
+  display: flex;
+  margin-left: 24px;
+}
+.parts2 p {
+  margin-left: 16px;
+}
+.parts3 {
+  display: flex;
+  margin-left: 24px;
+}
+.parts3 p {
+  margin-left: 16px;
+}
+.parts4 {
+  display: flex;
+margin-left: 24px;
+}
+.parts4 p {
+  margin-left: 16px;
+}
+.Call-number {
+  display: flex;
+  margin-left: 80px;
+}
+.number p {
+  color: #3BB77E;
+  margin-left: 10px;
+}
+.Call-number p {
+  margin-left: 10px;
+}
+
