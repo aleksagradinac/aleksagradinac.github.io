@@ -146,4 +146,27 @@ margin-left: 24px;
 .Call-number p {
   margin-left: 10px;
 }
+.last-div {
+  background-color: white;
+  display: flex;
+}
+.last-div p {
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 120px;
+}
+.center img {
+  margin-left: 210px;
+  width: 224px;
+  padding-top: 10px;
+}
+.left-part {
+  margin-left: 400px;
+  display: flex;
+}
+.left-part img {
+  width: 44px;
+  height: 44px;
+padding-right: 20px;
+}
 
