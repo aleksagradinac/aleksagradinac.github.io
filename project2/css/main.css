@@ -146,6 +146,50 @@ margin-left: 24px;
 .Call-number p {
   margin-left: 10px;
 }
+.section-two {
+  background-image: url("../img/baner9.png");
+  background-position: center;
+  background-size: cover;
+  width: 110%;
+  display: flex;
+  margin: 0 auto;
+}
+.section-two-content-left {
+  width: 50%;
+  }
+  .section-two-content-left h1{
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 69px;
+    margin-left: 112px;
+  }
+  .section-two-content-left p {
+    margin-left: 112px;
+  }
+
+  .section-two-content-left-part input {
+  width: 329px;
+  height: 52px;
+  margin-top: 80px;
+  margin-left: 112px;
+  }
+  .section-two-content-right {
+    width: 50%;
+  }
+  .section-two-content-left-part .green-button {
+    margin-top: auto;
+  }
+  .green-button {
+      background: #00d285;
+      border-radius: 0px;
+      text-align: center;
+      color: white;
+      text-decoration: none;
+      padding: 18px 40px;
+      margin-right: 34px;
+      display: inline-block;
+  }
+
 .last-div {
   background-color: white;
   display: flex;
