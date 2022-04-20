@@ -260,6 +260,40 @@ margin-left: 24px;
   margin-right: 10px;
 }
 
+  .section-eleven {
+    padding-bottom: 120px;
+    stroke: #3BB77E;
+  }
+.section-eleven-content {
+  display: flex;
+  padding-top: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+.navigation1 {
+  display: inline-block;
+  width: 25%;
+}
+.navigation1 p {
+  display: inline-block;
+  font-size: 16px;
+}
+.navigation1 a {
+  display:block;
+  color: black;
+  text-decoration: none;
+  line-height: 30px;
+}
+.section-eleven-content-item {
+  display: flex;
+  align-items: center;
+}
+.section-eleven-content-item p {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
 .last-div {
   background-color: white;
   display: flex;
