@@ -500,7 +500,48 @@ height: 20px;
   width: 150px;
   height: 20px;
 }
-
+.section-seven {
+  display: flex;
+  padding-top: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+.part1-content1 {
+  display: flex;
+  margin-top: 30px;
+}
+.part1-content1-left {
+  margin-right: 10px;
+  margin-top: 26px;
+}
+.par1-money {
+  display: flex;
+}
+.par1-money h3 {
+  color: #00d285;
+  margin-right: 10px;
+}
+.par1-money p {
+  text-decoration: line-through;
+  padding-top: 4px;
+  color:#838383;
+}
+.section-seven-top {
+  display: flex;
+  width: 100%;
+}
+.section-seven-top-part1 {
+  width: 25%;
+}
+.section-seven-top-part2{
+  width: 25%;
+}
+.section-seven-top-part3{
+  width: 25%;
+}
+.section-seven-top-part4{
+width: 25%;
+}
   .section-nine {
     background-image: url("../img/baner9.png");
     background-position: center;
