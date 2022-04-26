@@ -669,4 +669,125 @@ width: 25%;
   height: 44px;
 padding-right: 20px;
 }
-
+@media only screen and (max-width: 1024px) {
+  *{
+    box-sizing: border-box;
+}
+.section-two {
+  background-image: url(../img/baner9.png);
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  display: block;
+}
+.section-two-content-left {
+  width: 100%;
+}
+.section-two-content-left h1 {
+  font-weight: bold;
+  font-size: 42px;
+}
+.section-two-content-left p {
+  color: #838383;
+}
+.section-two-content-left-part {
+  display: flex;
+}
+.section-two-content-left-part input {
+  width: 329px;
+  height: 52px;
+  margin-top: 80px;
+}
+.section-two-content-right {
+  width: 100%;
+}
+.section-two-content-right img{
+  width: 400px;
+  margin-top: 30px;
+}
+.section-three {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  width: 100%;
+  margin: 0 auto;
+}
+.section-three-center-left {
+  text-align: left;
+}
+.section-three-top {
+  display: block;
+}
+.section-four {
+  padding-bottom: 10px;
+  width: 100%;
+  margin: 0 auto;
+}
+.section-five {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+.section-five-left {
+  background-image: url(../img/Frame\ 98.png);
+  background-position: center;
+  display: block;
+  background-size: cover;
+  height: 700px;
+  width: 400px;
+  margin-right: 30px;
+}
+.section-five-left-left {
+  display: inline-block;
+  text-align: left;
+  margin-right: 10px;
+  padding-top: 30px;
+}
+.section-five-left-right {
+  padding-top: 60px;
+}
+.section-five-right {
+  background-image: url(../img/baner9.png);
+  background-position: center;
+  background-size: cover;
+  display: block;
+  height: 700px;
+  width: 400px;
+}
+.section-five-right-right {
+  padding-top: 88px;
+}
+.section-six {
+  padding-bottom: 10px;
+  width: 100%;
+  margin: 0 auto;
+}
+.section-six-content {
+  display: block;
+  margin-bottom: 50px;
+}
+.red-button {
+  background-color: #F35244;
+  border-radius: 0px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-right: 34px;
+  display: inline-block;
+}
+.section-six-top {
+  display: block;
+}
+.section-seven {
+  display: block;
+  padding-top: 50px;
+  width: 100%;
+  margin: 0 auto;
+}
+.section-seven-top {
+  display: block;
+  width: 100%;
+}
+}
