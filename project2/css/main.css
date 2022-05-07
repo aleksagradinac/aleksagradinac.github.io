@@ -101,6 +101,10 @@ display: flex;
 align-items: center;
 color: black;
 }
+.navigation .text-green {
+  display: flex;
+  align-items: center;
+}
 .top-wiew-port-left a img {
   margin-right: 8px;
 }
@@ -140,14 +144,12 @@ border: none;
 }
 .part3 {
 background-color: #3BB77E;
-  height: 45px;
   text-align: center;
+ padding: 10px;
   display: flex;
 }
 .section-one img {
-  padding-top: 14px;
-  width: 24px;
-  height: 24px;
+  margin-right: 6px;
   padding-left: 5px;
 }
 .part3 .dropbtn {
@@ -164,6 +166,8 @@ background-color: #3BB77E;
 color: black;
 text-decoration: none;
   margin-right: 60px;
+  display: flex;
+  align-items: center;
 }
 .text-green1 {
   color: #00d285;
@@ -171,14 +175,11 @@ text-decoration: none;
   align-items: center;
   margin-right: 10px;
   text-decoration: none;
+  display: flex;
 }
 .text-green {
   margin-right: 60px;
   text-decoration: none;
-}
-.navigation img {
-  width: 20px;
-  height: 20px;
 }
 
 .section-two {
