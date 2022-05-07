@@ -312,6 +312,9 @@ margin: 0;
   background-color:#DEF9EC ;
   height: 194px;
 }
+.section-four-top-part1 > img {
+  width: 100%;
+}
 .section-three-top-part3 {
   background-color:#F2FCE4;
   margin-right: 20px;
@@ -381,12 +384,13 @@ margin: 0;
 }
 .blue-button {
   background-color:#DEF9EC;
-  flex: 1;
-  height: 34px;
+padding: 10px 30px;
   text-align: center;
-  padding-top: 10px;
   color:#00d285;
   text-decoration: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .section-five {
     padding-top: 120px;
@@ -401,11 +405,13 @@ margin: 0;
   display: flex;
   background-size: cover;
   height: 350px;
-  width: 606px;
+  display: flex;
   margin-right: 30px;
+  flex: 1;
 }
 .section-five-left-left {
 display:inline-block;
+flex: 1;
 text-align: left;
 margin-right: 10px;
 padding-top: 30px;
@@ -414,6 +420,7 @@ padding-left: 50px;
 .section-five-left-right {
   text-align: right;
   padding-top: 60px;
+  padding-right: 50px;
 }
 .section-five-left-right img {
   width: 184px;
@@ -438,10 +445,11 @@ padding-left: 50px;
   background-size: cover;
   display: flex;
   height: 350px;
-  width: 606px;
+  flex: 1;
 }
 .section-five-right-left {
   display:inline-block;
+  flex: 1;
 text-align: left;
 margin-right: 10px;
 padding-top: 50px;
@@ -471,7 +479,7 @@ padding-left: 50px;
 }
 .section-six {
   padding-bottom: 10px;
-  width: 89%;
+  width: 80%;
   margin: 0 auto; 
 }
 .section-six-content{
@@ -503,13 +511,23 @@ margin-right: 10px;
   display: flex;
 }
 .section-six-top-part1{
-  display: table-caption;
+  flex: 1;
   border: 1px solid rgba(173, 173, 173, 0.25);
   margin-right: 20px;
+  padding: 20px;
+  position: relative;
+}
+.section-six-top-part1 .yellow-button {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.section-six-top-part1 > img {
+  width: 100%;
 }
 .parts9 {
   display:inline-block;
-  margin-left: 10px;
+  width: 100%;
 }
 .parts9-one {
   display: flex;
@@ -529,8 +547,24 @@ margin-right: 10px;
 }
 .parts9-three .green-button{
   background-color:#3BB77E;
-width: 150px;
-height: 20px;
+width: 100%;
+}
+.meat .blue-button {
+  background-color: #DEF9EC;
+  padding: 10px 30px;
+  text-align: center;
+  color: #00d285;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.form-box {
+  padding: 0;
+  margin: 0;
 }
 .section-six-top-part2 {
   margin-top: 20px;
@@ -554,13 +588,15 @@ height: 20px;
   background-image: url("../img/Frame\ 98.png");
   background-position: center;
   background-size: cover;
-  height: 500px;
+  height: 100%;
 }
 .five-center {
   text-align: center;
 }
 .five-center h3 {
   font-size: 32px;
+  padding-top: 40px;
+  margin-top: 0px;
 }
 .five-center p {
   font-size: 16px;
@@ -592,11 +628,12 @@ height: 20px;
 .five-center-part4 {
   margin-top: 70px;
   padding-left: 10px;
+  padding-right: 16px;
 }
 .five-center-part4 .green-button {
   background-color: #3BB77E;
-  width: 150px;
-  height: 20px;
+  width: 100%;
+  flex: 1;
 }
 .section-seven {
   display: flex;
@@ -648,53 +685,21 @@ width: 25%;
     display: flex;
     margin: 0 auto;
   }
-  .section-nine a {
-    background-color: black;
-    width: 219px;
-    display: flex;
-    height: 60px;
-    color: white;
-    font-size: 11px;
-    text-decoration: none;
-    margin-bottom: 20px;
-  }
-  .section-nine a p {
-    padding-top: 14px;
-    color: white;
-  }
-  .small {
-    font-size: 8px;
-  }
-  .store {
-    font-size: 16px;
-  }
-  .section-nine a img {
-    width: 60px;
-    height: 60px;
-    padding-bottom: 20px;
-  }
+
   .section-nine-left {
     width: 50%;
     padding-top: 120px;
     padding-bottom: 120px;
-    padding-left: 150px;
   }
   .section-nine-left h1 {
     font-weight: bold;
     font-size: 50px;
     line-height: 69px;
-  
     margin-bottom: 100px;
   }
   .section-nine-left p {
-  
     margin-bottom: 80px;
     color: #838383;
-  }
-  .section-nine-left img{
-  width: 219px;
-  height: 63px;
-  padding-right: 20px;
   }
   .section-nine-right {
     width: 50%;
@@ -745,6 +750,9 @@ width: 25%;
     width: 80%;
     margin: 0 auto;
 }
+.section-eleven-content-item img {
+  margin-right: 8px
+}
 .navigation1 {
   display: inline-block;
   width: 25%;
@@ -790,7 +798,6 @@ margin-right: 300px;
   display: flex;
 }
 .left-part img {
-  width: 44px;
   height: 44px;
 padding-right: 20px;
 }
