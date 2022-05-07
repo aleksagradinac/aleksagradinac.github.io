@@ -188,10 +188,15 @@ text-decoration: none;
   width: 100%;
   display: flex;
   margin: 0 auto;
+  padding-bottom: 100px;
+}
+.contajner {
+  width: 80%;
+  display: flex;
+  margin:0 auto;
 }
 .section-two-content-left {
   flex: 1;
-  padding-left: 200px;
   }
   .section-two-content-left h1{
     font-weight: bold;
@@ -221,6 +226,10 @@ text-decoration: none;
       margin-right: 34px;
       display: inline-block;
   }
+  .section-two-content-right {
+    position: absolute;
+    right: 0;
+  }
   .section-three {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -236,10 +245,10 @@ text-decoration: none;
 }
 .section-three-center-left {
   text-align: left;
-  margin-right: 550px;
 }
 .section-three-center-right {
   text-align: right;
+flex: 1;
   padding-top: 40px;
 }
 .section-three-center-right a {
@@ -252,13 +261,25 @@ text-decoration: none;
 .section-three-top {
   display: flex;
 }
+.section-three-top .section-three-top-part1:last-child {
+margin: 0;
+}
 .section-three-top h1 {
   font-size: 18px;
+}
+.section-three-center-right a:last-child {
+  margin: 0;
+}
+.section-three-top .section-four-top-part1:last-child {
+  margin: 0;
+}
+.blue-button img {
+  margin-right: 8px;
 }
 .section-three-top-part1 {
   background-color:#FEEFEA;
   margin-right: 20px;
-  width: 153px;
+  flex: 1;
   text-align: center;
 }
 .section-three-top-part2 {
@@ -327,12 +348,14 @@ text-decoration: none;
     margin: 0 auto; 
 }
 .section-four-top-part1 {
-    padding-left: 20px;
+    padding: 20px;
     flex: 1;
     border: 1px solid rgba(173, 173, 173, 0.25);
     margin-right: 10px;
 }
-
+*{
+  box-sizing: border-box;
+}
 .section-four-top-part3 {
   margin-right: 20px;
 }
@@ -358,7 +381,7 @@ text-decoration: none;
 }
 .blue-button {
   background-color:#DEF9EC;
-  width: 90px;
+  flex: 1;
   height: 34px;
   text-align: center;
   padding-top: 10px;
@@ -624,6 +647,31 @@ width: 25%;
     width: 100%;
     display: flex;
     margin: 0 auto;
+  }
+  .section-nine a {
+    background-color: black;
+    width: 219px;
+    display: flex;
+    height: 60px;
+    color: white;
+    font-size: 11px;
+    text-decoration: none;
+    margin-bottom: 20px;
+  }
+  .section-nine a p {
+    padding-top: 14px;
+    color: white;
+  }
+  .small {
+    font-size: 8px;
+  }
+  .store {
+    font-size: 16px;
+  }
+  .section-nine a img {
+    width: 60px;
+    height: 60px;
+    padding-bottom: 20px;
   }
   .section-nine-left {
     width: 50%;
