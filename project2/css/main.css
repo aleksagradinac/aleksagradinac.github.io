@@ -853,6 +853,12 @@ padding-right: 20px;
   background-size: cover;
   margin: 0 auto;
   display: block;
+  height: 80%;
+}
+.contajner {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 .section-two-content-left {
   width: 100%;
@@ -885,11 +891,20 @@ padding-right: 20px;
   width: 100%;
   margin: 0 auto;
 }
+.section-three-center {
+  display: block;
+}
+.section-three-center-right {
+  text-align: left;
+  flex: 1;
+  padding-top: 40px;
+}
 .section-three-center-left {
   text-align: left;
 }
 .section-three-top {
   display: block;
+  margin-top: 50px;
 }
 .section-four {
   padding-bottom: 10px;
