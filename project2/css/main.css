@@ -846,6 +846,7 @@ padding-right: 20px;
   color: white;
   position: absolute;
   left: 14px;
+  top: 12px;
 }
 .my-cart span {
   background-color: #00d285;
@@ -859,6 +860,7 @@ padding-right: 20px;
   color: white;
   position: absolute;
   left: 14px;
+  top: 12px;
 }
 .wishlist {
   text-decoration: none;
