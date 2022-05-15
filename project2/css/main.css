@@ -895,6 +895,16 @@ padding-right: 20px;
 }
 .navigation {
   display: block;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+.text-green1 {
+  color: #00d285;
+  margin-left: 0px;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  display: flex;
 }
 .Call-number {
   display: flex;
