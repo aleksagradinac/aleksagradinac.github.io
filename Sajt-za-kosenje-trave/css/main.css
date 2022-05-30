@@ -12,21 +12,30 @@ body {
   padding: 0;
   margin: 0;
 }
+.container {
+width: 80%;
+margin: 0 auto;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.meni {
+ text-align: right;
+  flex: 1;
+}
 .top-port {
     display: flex;
+    align-items: center;
 }
 .top-port img {
-    width: 130px;
-    padding-right: 800px;
-    padding-left: 50px;
+    width: 95px;
 }
 .top-port a {
   text-decoration: none;
   padding-right: 20px;
   color: black;
   font-size: 18px;
-  padding-top: 50px;
-
 }
 .advertising-baner{
   background-image:url("../img/background.jpg");
@@ -35,7 +44,6 @@ body {
   padding-top: 50px;
   padding-bottom: 100px;
   color:bisque;
-  padding-left: 30px;
 }
 .advertising-baner h1 {
   margin-bottom: 20px;
@@ -50,6 +58,7 @@ body {
 }
 .services-top{
   text-align: center;
+  padding-top: 30px;
 }
 .services-down {
   display: flex;
@@ -81,7 +90,6 @@ background-image: url(../img/kosnja-trave.jpg);
 color:whitesmoke;
 padding-top : 80px;
 padding-bottom: 80px;
-padding-left: 30px;
 }
 .about-us-left {
   width: 50%;
