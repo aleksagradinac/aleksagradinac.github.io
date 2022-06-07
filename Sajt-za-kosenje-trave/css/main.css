@@ -130,6 +130,8 @@ margin-right: 10px;
     display: inline-block;
 }
 .last-div {
+  background-color: black;
+  color: white;
   display: flex;
     justify-content: center;
     align-items: center;
@@ -153,7 +155,9 @@ margin-right: 10px;
     padding-right: 20px;
 }
 .top-view-port {
-  text-align: center;
+width: 80%;
+  margin: 0 auto;
+  text-align: left;
   padding-top: 10px;
 }
 .the-begin {
@@ -175,10 +179,15 @@ margin-right: 10px;
 }
 .pictures {
   margin-top: 50px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  border: #00d285;
 }
 .pictures img{
-  width: 100%;
-  margin-top: 20px;
+  width: 20%;
+  display: inline-block;
+padding-right: 25px;  
 }
 .why-us {
   padding-top: 120px;
@@ -234,4 +243,49 @@ margin-right: 10px;
   color: black;
   font-weight: bold;
   text-decoration:underline;
+}
+.start-services {
+  background-image: url(../img/testera.png);
+  color: orangered;
+  background-position: center;
+  background-size:cover;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.services {
+  padding-bottom: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+.services-content {
+  text-align: center;
+}
+.services-top {
+  display: flex;
+}
+.services-item {
+  flex: 1;
+    border: 1px solid rgba(173, 173, 173, 0.25);
+    margin-right: 20px;
+    padding: 20px;
+    position: relati
+}
+.services-item img{
+  width: 320px;
+  height: 320px;
+}
+.services-item .orange-text {
+  color: orangered;
+  font-size: 16px;
+}
+.little-more {
+  background-image: url(../img/Group\ 2\ \(1\).png);
+  color:white ;
+  background-position: center;
+  background-size:cover;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
 }
