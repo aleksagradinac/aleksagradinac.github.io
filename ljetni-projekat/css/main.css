@@ -1,0 +1,23 @@
+.nav-link {
+    color: black;
+}
+.white-button {
+    border-radius: 100px;
+    text-align: center;
+    padding: 14px 32px;
+    margin-right: 34px;
+}
+.black-button {
+    border-radius: 100px;
+    text-align: center;
+    padding: 14px 32px;
+    margin-right: 34px;
+}
+.start-right {
+    margin: 0 auto;
+    padding-left: 170px;
+}
+.brends img {
+    margin-right: 57px;
+    padding-top: 40px;
+}
