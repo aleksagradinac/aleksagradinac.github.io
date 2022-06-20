@@ -12,6 +12,7 @@
     text-align: center;
     padding: 14px 32px;
     margin-right: 34px;
+    background-color: #0A2640;
 }
 .start-right {
     margin: 0 auto;
@@ -20,4 +21,10 @@
 .brends img {
     margin-right: 57px;
     padding-top: 40px;
+}
+.services {
+    background-color: #0A2640;
+}
+.comment {
+    background-color: #0A2640;
 }
