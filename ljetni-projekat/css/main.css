@@ -14,6 +14,23 @@
     margin-right: 34px;
     background-color: #0A2640;
 }
+.green-button {
+    border-radius: 100px;
+    text-align: center;
+    padding: 14px 32px;
+    margin-right: 34px;
+    background-color:#65E4A3;
+}
+.container input{
+    border-radius: 100px;
+    width: 370px;
+    height: 56px;
+}
+.search {
+    background-image: url(../img/Group\ 287.png);
+    background-size: cover;
+    background-position: center;
+}
 .start-right {
     margin: 0 auto;
     padding-left: 170px;
