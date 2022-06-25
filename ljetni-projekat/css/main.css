@@ -21,10 +21,12 @@
     margin-right: 34px;
     background-color:#65E4A3;
 }
+
 .container input{
     border-radius: 100px;
     width: 370px;
     height: 56px;
+    margin-bottom: 20px;
 }
 .search {
     background-image: url(../img/Group\ 287.png);
