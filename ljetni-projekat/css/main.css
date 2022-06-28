@@ -21,7 +21,6 @@
     margin-right: 34px;
     background-color:#65E4A3;
 }
-
 .container input{
     border-radius: 100px;
     width: 370px;
@@ -45,5 +44,8 @@
     background-color: #0A2640;
 }
 .comment {
+    background-color: #0A2640;
+}
+.top-view-port1 {
     background-color: #0A2640;
 }
