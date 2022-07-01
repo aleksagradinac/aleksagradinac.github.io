@@ -27,7 +27,7 @@
     height: 56px;
     margin-bottom: 20px;
 }
-.search {
+.search .container {
     background-image: url(../img/Group\ 287.png);
     background-size: cover;
     background-position: center;
@@ -49,3 +49,6 @@
 .top-view-port1 {
     background-color: #0A2640;
 }
+.numbers {
+    background-color: #0A2640;
+}   
