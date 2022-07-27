@@ -8,39 +8,45 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="css/main.css" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;800&family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
     <title>Ljetni projekat</title>
   </head>
   <body>
-    <div class="top-view-port">
+    <div class="position-relative">
+      <img src="img/big-circle.svg" class="position-absolute top-0 end-0">
+    <div class="top-view-port position-relative z-index-big">
 <div class="container">
 <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
     <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-      <img src="img/logo.png" class="bi me-2" width="162" height="42">
+      <img src="img/logo.svg" class="bi me-2" width="162" height="42">
     </a>
     <ul class="navigation d-flex text-decoration-none color-black fw-bold">
     <a href="/ljerni-projekat" class="nav-link">Home</a>
     <a href="about.html" class="nav-link">About</a>
     <a href="blog.html" class="nav-link">Blog</a>
-    <a href="#" class="white-button text-decoration-none pt-2 text-dark d-inline-block border border-dark">Log in</a>
+    <a href="#" class="white-button text-decoration-none pt-2 pb-2 text-dark d-inline-block border border-dark">Log in</a>
     </ul>
   </header>
 </div>
 </div>
-<div class="start ">
-  <div class="container d-flex">
-    <div class="start-left">
-      <h1>Save time by building<br> fast with Boldo Template </h1>
-     <p>Funding handshake buyer business-to-business metrics iPad partnership. First<br> mover advantage innovator success deployment non-disclosure.</p>
-     <a href="#" class="black-button text-decoration-none pt-2 text-white d-inline-block border border-dark">Buy template</a>
-     <a href="#" class="white-button text-decoration-none pt-2 text-dark d-inline-block border border-dark fw-bold">Explore</a>
+<div class="start position-relative z-index-big">
+  <div class="container d-flex align-items-center">
+    <div class="start-left pt-2 pb-2">
+      <h1 class="pb-2 font-big">Save time by building fast with Boldo Template </h1>
+     <p class="pb-4 ">Funding handshake buyer business-to-business metrics iPad partnership. First<br> mover advantage innovator success deployment non-disclosure.</p>
+     <a href="#" class="black-button text-decoration-none pt-2 pb-2 text-white d-inline-block border border-dark">Buy template</a>
+     <a href="#" class="white-button text-decoration-none pt-2 pb-2 text-dark d-inline-block border border-dark fw-bold">Explore</a>
     </div>
     <div class="start-right">
       <img src="img/Graphics.png">
     </div>
   </div>
 </div>
-<div class="brends">
+</div>
+
+<div class="brends pt-4 pb-4">
   <div class="container"> 
   <img src="img/logo.png" class="me-10">
   <img src="img/Logo1.png">
@@ -51,22 +57,25 @@
   </div>
 </div>
 <div class="services">
-  <div class="container pt-4 mt-4 text-center text-white">
+  <div class="container pt-5 mt-4 text-center text-white">
     <p>Our services</p>
     <h1>Handshake infographic mass market<br> crowdfunding iteration.</h1>
     <div class="row pt-4">
-      <div class="col-4">
-        <img src="img/Rectangle 1270.png" class="bi me-2 pb-5" width="300" height="354">
+      <div class="col-4 pb-5">
+        <div class="card-img mb-5" style="background-image:url('img/Rectangle 1270.png')">
+        </div>
         <h2>Cool feature title</h2>
         <a href="#" class="text-decoration-under-line text-white fw-bold">Explore page <img src="img/arrow-right.png"></a>
       </div>
-      <div class="col-4">
-        <img src="img/Rectangle 1270 (1).png" class="bi me-2 pb-5" width="300" height="354">
+      <div class="col-4 pb-5">
+        <div class="card-img mb-5" style="background-image:url('img/Rectangle 1270 (1).png')">
+        </div>
         <h2>Even cooler feature</h2>
         <a href="#" class="text-decoration-under-line text-white fw-bold">Explore page <img src="img/arrow-right.png"></a>
       </div>
-      <div class="col-4">
-        <img src="img/Rectangle 1270 (2).png" class="bi me-2 pb-5" width="300" height="354">
+      <div class="col-4 pb-5">
+        <div class="card-img mb-5" style="background-image:url('img/Rectangle 1270 (2).png')">
+        </div>
         <h2>Cool feature title</h2>
         <a href="#" class="text-decoration-under-line  text-white fw-bold">Explore page <img src="img/arrow-right.png"></a>
       </div>
@@ -81,10 +90,10 @@
       </div>
       <div class="col-6">
         <h1>We connect our customers<br> with the best, and help them<br> keep up-and stay open.</h1>
-        <p class="pt-5"> <img src="img/Correct.png" class="bi me-2" width="36" height="36">We connect our customers with the best. </p>
-        <p> <img src="img/Correct.png" class="bi me-2" width="36" height="36">Advisor success customer launch party. </p>
-        <p> <img src="img/Correct.png" class="bi me-2" width="36" height="36">Business-to-consumer long tail. </p>
-        <a href="#"class="black-button text-decoration-none pt-2 mt-5 text-white d-inline-block border border-dark">Start now</a>
+        <p class="pt-5"> <img src="img/correct.svg" class="bi me-2" width="36" height="36">We connect our customers with the best. </p>
+        <p> <img src="img/correct.svg" class="bi me-2" width="36" height="36">Advisor success customer launch party. </p>
+        <p> <img src="img/correct.svg" class="bi me-2" width="36" height="36">Business-to-consumer long tail. </p>
+        <a href="#"class="black-button text-decoration-none pt-2 pb-2 mt-5 text-white d-inline-block border border-dark">Start now</a>
       </div>
     </div>
   </div>
@@ -94,9 +103,44 @@
     <div class="row">
       <div class="col-6">
         <h1>We connect our customers<br> with the best, and help them<br> keep up-and stay open.</h1>
-        <a href="#" class="d-flex mt-4 text-decoration-none text-dark"><img src="img/star.png" class="bi me-2">We connect our customers with the best.</a>
-        <a href="#" class="d-flex mt-4 text-decoration-none text-dark"> <img src="img/star (1).png"class="bi me-2">Advisor success customer launch party.  </a>
-        <a href="#" class="d-flex mt-4 text-decoration-none text-dark"> <img src="img/sun.png"class="bi me-2">Business-to-consumer long tail.  </a>
+        <a href="#" class="d-flex mt-4 text-decoration-none text-dark icon-tab">
+          <svg class="me-2" width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M22.24 13.6317C23.3658 12.5785 23.9983 11.1501 23.9983 9.6607C23.9983 8.17131 23.3658 6.74291 22.24 5.68975C21.1142 4.63658 19.5872 4.04492 17.995 4.04492C16.4028 4.04492 14.8758 4.63658 13.75 5.68975L7 12.004V19.9553H15.5L22.24 13.6317Z" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M18 9.66553L4 22.7617" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M19.5 16.2136H11" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          We connect our customers with the best.</a>
+        <a href="#" class="d-flex mt-4 text-decoration-none text-dark icon-tab"> <svg class="me-2" width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_604_1518)">
+          <path d="M2.7749 13.1447C2.7749 13.1447 6.7749 5.66113 13.7749 5.66113C20.7749 5.66113 24.7749 13.1447 24.7749 13.1447C24.7749 13.1447 20.7749 20.6282 13.7749 20.6282C6.7749 20.6282 2.7749 13.1447 2.7749 13.1447Z" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M13.7749 15.951C15.4318 15.951 16.7749 14.6946 16.7749 13.1447C16.7749 11.5948 15.4318 10.3384 13.7749 10.3384C12.118 10.3384 10.7749 11.5948 10.7749 13.1447C10.7749 14.6946 12.118 15.951 13.7749 15.951Z" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <defs>
+          <clipPath id="clip0_604_1518">
+          <rect width="24" height="22.4506" fill="white" transform="translate(1.7749 1.91943)"/>
+          </clipPath>
+          </defs>
+          </svg>
+          Advisor success customer launch party.  </a>
+        <a href="#" class="d-flex mt-4 text-decoration-none text-dark icon-tab"><svg class="me-2" width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_604_1525)">
+          <path d="M12 16.206C14.7614 16.206 17 14.1119 17 11.5288C17 8.94562 14.7614 6.85156 12 6.85156C9.23858 6.85156 7 8.94562 7 11.5288C7 14.1119 9.23858 16.206 12 16.206Z" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M12 1.23901V3.1099" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M12 19.9478V21.8186" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M4.21997 4.25098L5.63997 5.57931" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M18.3601 17.4783L19.7801 18.8066" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M1 11.5288H3" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M21 11.5288H23" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M4.21997 18.8066L5.63997 17.4783" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M18.3601 5.57931L19.7801 4.25098" stroke="#0A2640" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <defs>
+          <clipPath id="clip0_604_1525">
+          <rect width="24" height="22.4506" fill="white" transform="translate(0 0.303467)"/>
+          </clipPath>
+          </defs>
+          </svg>
+          Business-to-consumer long tail.  </a>
       </div>
       <div class="col-6">
         <img src="img/Group 281.png" class="bi me-2" width="446" height="692">
@@ -109,6 +153,7 @@
     <h1>An enterprise template to ramp<br> up your company website</h1>
     <div class="row">
       <div class="col-4 pt-4 pb-4 ps-4 pe-4">
+        <div class="white-box bg-light">
         <p>“Buyer buzz partner<br> network disruptive non-<br>disclosure agreement<br> business”</p>
         <div class="part d-flex">
           <img src="img/Ellipse 4.png" class="bi me-2" width="58" height="58">
@@ -117,8 +162,10 @@
           <p>Manager @ Howarts</p>
           </div>
         </div>
+        </div>
       </div>
       <div class="col-4 pt-4 pb-4 ps-4 pe-4">
+        <div class="white-box bg-light">
         <p>“Learning curve<br> infrastructure value<br> proposition advisor<br> strategy user<br> experience hypotheses<br> investor.”</p>
         <div class="part d-flex">
           <img src="img/Ellipse 4 (1).png" class="bi me-2" width="58" height="58">
@@ -127,8 +174,10 @@
           <p>Manager @ Slytherin</p>
           </div>
         </div>
+        </div>
       </div>
       <div class="col-4 pt-4 pb-4 ps-4 pe-4 ">
+        <div class="white-box bg-ligth">
         <p>“Release facebook <br>responsive web design <br>business model canvas <br>seed money<br> monetization.”</p>
         <div class="part d-flex">
           <img src="img/Ellipse 4 (2).png" class="bi me-2" width="58" height="58">
@@ -137,21 +186,48 @@
           <p>Team Leader @ Gryffindor</p>
           </div>
         </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
 <div class="conection mt-5">
   <div class="container text-center">
-    <img src="img/Rectangle 1270 (7).png" width="1100" height="403">
+    <img src="img/Rectangle 1270.svg" width="1110" height="403">
     <div class="row mt-4 text-start ps-5" >
       <div class="col-6">
         <p class="h2" >We connect our customers<br> with the best, and help them<br> keep up-and stay open.</p>
       </div>
+      <div class="col-6">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              We connect our customers with the best?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body text-secondary">
+Funding handshake buyer business-to-business metrics iPad<br> partnership. First mover advantage innovator success deployment<br> non-disclosure.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Android research & development rockstar? 
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Funding handshake buyer business-to-business metrics iPad<br> partnership. First mover advantage innovator success deployment<br> non-disclosure.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-<div class="blog">
+<div class="blog mt-5">
   <div class="container text-center">
     <p>Our blog</p>
     <h1>Value proposition accelerator product<br> management venture</h1>
@@ -204,17 +280,19 @@
   </div>
 </div>
 <div class="search mt-4">
-  <div class="container text-center pt-4 text-white">
+  <div class="container">
+    <div class="search1 text-center pt-4 text-white">
     <h1>An enterprise template to ramp<br> up your company website</h1>
     <input type="text" placeholder="Your email address" name="search">
     <a href="#" class="green-button text-decoration-none pt-2 text-dark d-inline-block border border-dark fw-bold mt-5">Load more</a>
+  </div>
   </div>
 </div>
 <div class="last-div">
   <div class="container">
     <div class="row">
       <div class="col-6 mt-5">
-        <img src="img/logo.png" class="bi me-2" width="162" height="42">
+        <img src="img/logo.svg" class="bi me-2" width="162" height="42">
         <p class="mt-3">Social media validation business model<br> canvas graphical user interface launch<br> party creative facebook iPad twitter.</p>
         <p class="mt-5">All rights reserved.</p>
       </div>
