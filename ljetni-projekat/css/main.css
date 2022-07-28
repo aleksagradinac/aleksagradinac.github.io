@@ -108,3 +108,45 @@ font-family: 'Open Sans', sans-serif;
     font-size: 90px;
     color: #4FE9A4;
 }
+.pictures1{
+    background-image: url(../img/Rectangle\ 1270\ \(6\).png);
+    background-size: cover;
+    background-position: center;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+.pictures2{
+    background-image: url(../img/Rectangle\ 1270\ \(3\).png);
+    background-size: cover;
+    background-position: center;
+  width: 100%;
+  height: 380px;
+  border-radius: 10px;
+}
+.pictures3{
+    background-image: url(../img/Rectangle\ 1270.png);
+    background-size: cover;
+    background-position: center;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+.pictures4{
+    background-image: url(../img/Rectangle\ 1270\ \(4\).png);
+    background-size: cover;
+    background-position: center;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+.pictures5{
+    background-image: url(../img/Rectangle\ 1274.png);
+    background-size: cover;
+    background-position: center;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+
+
