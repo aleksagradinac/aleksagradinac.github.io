@@ -149,4 +149,18 @@ font-family: 'Open Sans', sans-serif;
   border-radius: 10px;
 }
 
+@media only screen and (max-width: 1024px) {
+    .start-right {
+        margin: 0 auto;
+        padding-left: 0px;
+    }
+    .start-right img {
+        width: 100%;
+        height: auto;
+    }
+    .card-img {
+        height: 354px;
+        width: 354px;
+    }
 
+}
