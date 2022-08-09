@@ -162,5 +162,10 @@ font-family: 'Open Sans', sans-serif;
         height: 354px;
         width: 354px;
     }
-
+    .container input{
+        border-radius: 100px;
+        width: 250px;
+        height: 56px;
+        margin-bottom: 20px;
+    }
 }
