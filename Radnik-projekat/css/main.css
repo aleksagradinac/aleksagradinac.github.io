@@ -1,0 +1,61 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    }
+    .flex {
+      display: flex;
+      align-items: center;
+    }
+    .meni {
+     text-align: right;
+      flex: 1;
+    }
+    .top-view-port {
+        display: flex;
+        align-items: center;
+    }
+    .top-view-port img {
+        width: 95px;
+    }
+    button i {
+        color: white;
+        font-size: 20px;
+      }
+      .top-view-port button img {
+        width: 20px;
+        height: 20px;
+      }
+      .top-view-port input {
+        width: 644px;
+        height: 42px;
+        background-color: #F3F3F3;
+        border: 20px;
+        margin-left: 80px;
+      }
+      .top-view-port button {
+        width: 55px;
+        height: 42px;
+        background-color:rgb(0, 119, 255);
+        border: 20px;
+      }
+    .top-view-port a {
+      text-decoration: none;
+      padding-right: 20px;
+      color: black;
+      font-size: 18px;
+    }
+    
