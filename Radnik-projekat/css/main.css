@@ -58,4 +58,100 @@ body {
       color: black;
       font-size: 18px;
     }
-    
+    .player {
+      text-align: center;
+    }
+    .part1 {
+      display: flex;
+      padding-top: 50px;
+      border: 1px solid rgba(3, 3, 3, 0.925);
+      margin-bottom: 50px;
+    }
+    .player-left {
+      width: 50%;
+      padding-bottom: 50px;
+    }
+    .player-right {
+      width: 50%;
+      padding-top: 150px;
+    }
+    .player .container img {
+    width: 500px;
+    height: 350px;
+    }
+    .last-div .container{
+      display: flex;
+    }
+   .last-part {
+    width: 25%;
+    display: grid;
+    text-align: center;
+   }
+   .last-div a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+   } 
+   .shirts {
+    text-align: center;
+    padding-bottom: 20px;  
+   }
+   .shirts h1 {
+    margin-bottom: 30px;
+   }
+   .first-team {
+    display: flex;
+   }
+   .shirts img{
+    width: 500px;
+    height: 500px;
+   }
+   .shirts-left {
+width: 50%;
+text-align: center;
+   }
+   .shirts-right {
+    width: 50%;
+   }
+   .second-team {
+    display: flex;
+   }
+   .titleBar {
+  text-align: center;
+    padding-top: 40px;
+    padding-bottom: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.istorija {
+  background-image: url(../img/Group\ 1.svg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: bisque;
+    margin-bottom: 40px;
+    margin-top:40px;
+}
+.Titule {
+  margin-bottom: 40px;
+}
+.Titule h1 {
+  font-size: 50px;
+}
+.Titule .container{
+  display: flex;
+}
+.titule li {
+  padding-bottom: 20px;
+}
+.tit-left {
+  width: 50%;
+}
+.tit-right {
+  width: 50%;
+  text-align: center;
+  padding-top: 100px;
+}
