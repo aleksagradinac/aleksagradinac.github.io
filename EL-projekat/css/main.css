@@ -1,0 +1,80 @@
+h1,h2,h3,h4,h5 {
+    font-family: 'Bluu next', sans-serif;
+    }
+    .body,html{
+    font-family: 'Sofia Pro', sans-serif;
+    }
+    .z-index-big{
+        z-index: 100000;
+    }
+    .start{
+        padding-top: 120px;
+    }
+    .position-relative{
+        background-image: url(../img/background1.png);
+        background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    .gold-button {
+        background-color: #C6AB69;
+    }
+    .position-relative h1 {
+        color: #C6AB69;
+    } 
+    .start-right {
+        margin: 0 auto;
+        padding-left: 170px;
+    }
+    .black-button{
+        background-color: black;
+    }
+    .backround {
+        background-color: #C6AB69;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .negative-margine {
+        margin-top: -70px;
+    }
+    .about {
+        background-color: rgb(51, 48, 48);
+    }
+    .about .container1 {
+        background-image: url(../img/background2.png);
+        background-size: cover;
+    background-position: center;
+    }
+    .about h1 {
+        color: #C6AB69;
+    }
+    .about-right {
+        margin: 0 auto;
+    padding-left: 170px
+    }
+    .books {
+        background-color: rgb(51, 48, 48);
+        margin-bottom: 80px;
+        padding-bottom: 20px;
+    }
+    .books-left {
+        width: 50%;
+    }
+    .books-right {
+        margin: 0 auto;
+        padding-left: 170px;
+    }
+    .books-right h1 {
+        color: #C6AB69;
+    }
+ .box {
+    display: inline-grid;
+    }
+    .story-blog h5 {
+color: #C6AB69;
+    }
+    .story-blog-right {
+        margin: 0 auto;
+        padding-left: 170px
+    
+    }

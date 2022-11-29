@@ -35,12 +35,8 @@ body {
         color: white;
         font-size: 20px;
       }
-      .top-view-port button img {
-        width: 20px;
-        height: 20px;
-      }
       .top-view-port input {
-        width: 644px;
+        width: 500px;
         height: 42px;
         background-color: #F3F3F3;
         border: 20px;
@@ -73,11 +69,11 @@ body {
     }
     .player-right {
       width: 50%;
-      padding-top: 150px;
+      padding-top: 200px;
     }
     .player .container img {
     width: 500px;
-    height: 350px;
+    height: 500px;
     }
     .last-div .container{
       display: flex;
@@ -154,4 +150,24 @@ text-align: center;
   width: 50%;
   text-align: center;
   padding-top: 100px;
+}
+.O-nama {
+  background-image: url(../img/RADNIK187507734_435470510916726_6613381033366707285_n.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  color:white;
+  margin-bottom: 50px;
+  margin-top:50px;
+}
+.blue-button {
+  background: blue;
+  border-radius: 100px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 18px 40px;
+  margin-right: 34px;
+  display: inline-block;
 }
