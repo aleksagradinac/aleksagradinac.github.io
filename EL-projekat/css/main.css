@@ -76,5 +76,108 @@ color: #C6AB69;
     .story-blog-right {
         margin: 0 auto;
         padding-left: 170px
-    
     }
+    .story-blog  {
+        background-image: url(../img/background3.png);
+        background-size: cover;
+    background-position: center;
+
+    }
+    .FAQ {
+        background-color: black;
+    }
+    .FAQ h1 {
+        color: #C6AB69;
+    }
+    .FAQ .gold-button {
+        width: 100%;
+    }
+    .gray-button {
+        width: 100%;
+        background-color: #282424;
+        color: #c6ab69;
+    }
+    .buy-books {
+        background-color: black;
+    }
+    .buy-books h1 {
+        color: #C6AB69;
+    }
+    .book1 {
+        width: 25%;
+    }
+    .book1 p {
+        color: #C6AB69;
+    }
+.book1 .gray-button{
+    width: 100px;
+    height: 30px;
+}
+.get-in-touch {
+    background-color: black;
+
+}
+.get-in-touch h1 {
+    color: #C6AB69;
+}
+.contact{
+    border-right: 2px solid #C6AB69;
+    height: 100%;
+}
+.contact h5 {
+    color: #C6AB69;
+}
+.contact1 h5{
+    color: #C6AB69;
+}
+.sing-in {
+    background-color: black;
+}
+.sing-in .row {
+margin-left: 505px;
+}
+  form{
+    border-left: 2px solid #C6AB69;
+    border-right: 2px solid #C6AB69;
+  }
+  .input1 {
+    display:inline-grid;
+    width: 200px;
+  }
+  .input1 input {
+    background-color: black;
+    width: 200px;
+    color: white;
+
+  }
+  hr {
+    color: #C6AB69;
+      }
+      .black-button {
+        background-color: black;
+        color: #C6AB69;
+      }
+    
+  .last-div {
+    background-color: #282424;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+ .last-div .container1 {
+    background-color: black;
+     margin-left: 120px;
+     margin-right: 120px;
+ }
+ .container2-left {
+    width: 50%;
+}
+.container2-right {
+    margin: 0 auto;
+    padding-left: 450px;
+}
+.container3-left {
+    width: 70%;
+}
+.container3-right {
+    width: 30%;
+}
