@@ -181,3 +181,123 @@ margin-left: 505px;
 .container3-right {
     width: 30%;
 }
+.broken-nature {
+    background-color: black;
+
+}
+.broken-nature h1 {
+    color: #C6AB69;
+}
+.broken-nature .container {
+    border: 2px solid #C6AB69;
+}
+.tariona {
+    background-color: #282424;
+}
+.tariona h1 {
+    color: #C6AB69;
+}
+.tariona .container {
+    border: 2px solid #C6AB69;
+}
+.gray-text {
+color: #D8D8D8;
+}
+.The-reason-for-good {
+    background-color: black;
+}
+.The-reason-for-good .container {
+    border: 2px solid #C6AB69;
+
+}
+.The-reason-for-good h1 {
+    color: #C6AB69;
+}
+.col-12 p {
+    text-align: justify;
+    margin: 0 auto;
+    width: 50%;
+}
+.Cy-Reed {
+    background-color: #282424;
+}
+.Cy-Reed .container {
+    border: 2px solid #C6AB69;
+}
+.Cy-Reed h1 {
+    color: #C6AB69;
+}
+.Facebook {
+    background-color: black;
+}
+.Facebook .container {
+    border: 2px solid #C6AB69;
+}
+.Facebook h1 {
+    color: #C6AB69;
+}
+.how-started {
+    background-color: black;
+}
+.how-started h1 {
+    color: #C6AB69;
+}
+.info-DM {
+    background-color: #282424;
+}
+.info-DM .row {
+    background-color: black;
+}
+.info-DM h1 {
+    color: #C6AB69;
+}
+.top-3 {
+    background-color: black;
+}
+.top-3 h1 {
+    color: #C6AB69;
+}
+@media only screen and (max-width: 1024px) {
+.col-4 {
+    width: 100%;
+}
+.books-right {
+    padding-left: 0px;
+}
+.about-right {
+    padding-left: 0px;
+}
+.story-blog-right {
+    padding-left: 0px;
+}
+.book1 {
+    width: 100%;
+    padding-top: 10px;
+}
+.last-div .container1 {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.start-right {
+    padding-left: 0px;
+    padding-top: 20px;
+}
+.container2-left {
+    display: grid;
+    width: 100%;
+    text-align: center;
+}
+.container2-right {
+    padding-left: 0px;
+    text-align: center;
+}
+.tariona img {
+    width: 350px;
+}
+.col-6 {
+    width: 100%;
+}
+.last-div .img img {
+    width: 350px;
+}
+}
