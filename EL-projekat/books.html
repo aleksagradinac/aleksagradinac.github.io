@@ -62,48 +62,62 @@
 <div class="top-3">
   <div class="container text-center pb-3">
     <h1 class="text-center pt-4 pb-2">Top three books</h1>
-<img src="img/book1.png" class="me-4" width="223" height="390">
-<img src="img/book4.png" class="me-4" width="223" height="390">
+<img src="img/book1.png" class="me-4 pb-3" width="223" height="390">
+<img src="img/book4.png" class="me-4 pb-3" width="223" height="390">
 <img src="img/ice-storm.png" width="223" height="390">
 
   </div>
 </div>
-<div class="books-best">
-  <div>
-    <h3 class="text-light">Broken lands</h3>
-  <img src="img/book1.png" width="310" height="498"> 
-  <a href="#" class=" gold-button text-dark text-decoration-none pt-2 pb-2 pe-5 ps-5 d-inline-block border border-dark text-center" >Buy books</a>
-</div>
-  <div class="pt-4">
-    <h3></h3>
-    <img src="img/brokenties.png" width="310" height="498">
-    <a href="#" class=" gold-button text-dark text-decoration-none pt-2 pb-2 pe-5 ps-5 d-inline-block border border-dark text-center">Buy books</a>
-  </div> 
-  <div>
-    <h3 class="text-light">CY REED ADVENTURE</h3>
-    <img src="img/book2.png" width="310" height="498"> 
-    <a href="#" class=" gold-button text-dark text-decoration-none pt-2 pb-2 pe-5 ps-5 d-inline-block border border-dark text-center" >Buy books</a>
+<div class="books9">
+<h1 class="text-center pt-3">David Mayer books</h1>
+<div class="slick-slider d-flex">
+  <div class="element element-1">
+    <img src="img/book1.png" />
+    <a class="gold-button1">BUY HERE</a>
   </div>
-    <div class="pt-4">
-      <h3></h3>
-      <img src="img/fury.png" width="310" height="498">
-      <a href="#" class=" gold-button text-dark text-decoration-none pt-2 pb-2 pe-5 ps-5 d-inline-block border border-dark text-center">Buy books</a>
-    </div> 
-  <div>
-    <h3 class="text-light">APEX PREDATOR</h3>
-    <img src="img/book3.png" width="310" height="498"> 
-    <a href="#" class=" gold-button text-dark text-decoration-none pt-2 pb-2 pe-5 ps-5 d-inline-block border border-dark text-center" >Buy books</a>
-  </div>  
+  <div class="element element-2">
+    <img src="img/brokenties.png" />
+    <a class="gold-button1">BUY HERE</a>
   </div>
-  <div>
-        <h3 class="text-light">RANDY WOLF AND THE DROPOUT MAGICIANS</h3>
-    <img src="img/book4.png" width="310" height="498"> 
-    <a href="#" class=" gold-button text-dark text-decoration-none pt-2 pb-2 pe-5 ps-5 d-inline-block border border-dark text-center" >Buy books</a>
+  <div class="element element-3">
+    <img src="img/broken-people.png" />
+    <a class="gold-button1">BUY HERE</a>
+  </div>
+  <div class="element element-4">
+    <img src="img/book2.png">
+    <a class="gold-button1">BUY HERE</a>
+  </div>
+  <div class="element element-5">
+    <img src="img/fury.png">
+    <a class="gold-button1">BUY HERE</a>
+  </div>
+  <div class="element element-6">
+    <img src="img/ice-storm.png">
+    <a class="gold-button1">BUY HERE</a>
+  </div>
+  <div class="element element-7">
+    <img src="img/vapor.png">
+    <a class="gold-button1">BUY HERE</a>
+  </div>
+  <div class="element element-8">
+    <img src="img/torrent.png">
+    <a class="gold-button1">BUY HERE</a>
+  </div>
+  <div class="element element-9">
+    <img src="img/behamont.png">
+    <a class="gold-button1">BUY HERE</a>
+  </div>
+  <div class="element element-10">
+    <img src="img/book3.png">
+    <a class="gold-button1">BUY HERE</a>
+  </div>
+  <div class="element element-11">
+<img src="img/book4.png">
+<a class="gold-button1">BUY HERE</a>
+  </div>
 </div>
-  <div>your content</div>
-  <div>your content</div>
+</div>
 
-</div>
 <div class="last-div">
     <div class="container1">
       <div class="container2 d-flex pt-3">
@@ -142,13 +156,15 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="js/slick.min.js"></script>
   <script>
-    $(document).ready(function(){
-  $('.books-best').slick({
-    infinite: true,
-  slidesToShow: 2,
-  slidesToScroll: 2
+  $(".slick-slider").slick({
+   slidesToShow: 3,
+   infinite:false,
+   slidesToScroll: 1,
+    autoplay: true,
+   autoplaySpeed: 2000
+     // dots: false, Boolean
+    // arrows: false, Boolean
   });
-});
   </script>
   </body>
 </html>
