@@ -1,0 +1,34 @@
+body {
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5 {
+    font-family: 'Bluu next', sans-serif;
+    }
+    .body,html{
+    font-family: 'Sofia Pro', sans-serif;
+    }
+.position-relative {
+    background-color: #EEB1BC;
+}
+.inside-beauty {
+    background-image: url(../img/background1.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.inside-beauty-left {
+    width: 50%;
+}
+.pink-button {
+background-color:#F5D2D8;
+    border-radius: 100px;
+}
+.left {
+    width: 35%;
+}
+.right {
+    width: 65%;
+}
+.products {
+    background-color: #EEB1BC;
+}

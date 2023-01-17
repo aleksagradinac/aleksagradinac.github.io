@@ -82,7 +82,10 @@ h1,h2,h3,h4,h5 {
         color: #C6AB69;
     }
  .box {
-    display: inline-grid;
+    display:grid;
+    }
+    .box .gold-button {
+        text-align: center;
     }
     .story-blog h5 {
 color: #C6AB69;
