@@ -32,3 +32,37 @@ background-color:#F5D2D8;
 .products {
     background-color: #EEB1BC;
 }
+.contact {
+    background-color: #ebc9d1;
+}
+.about-products {
+background-color: #EEB1BC;
+}
+.accordion-button {
+    background-color: bisque;
+}
+.accordion-body {
+    background-color: antiquewhite;
+}
+.bg {
+    background-color: #EEB1BC;
+} 
+.favorite-product {
+    background-color: #EEB1BC;
+}
+.last-div {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.last-div .container1 {
+    background-color: #EEB1BC;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.container3-left {
+    width: 50%;
+}
+.container3-right {
+    margin: 0 auto;
+    padding-left: 450px;
+}
