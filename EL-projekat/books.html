@@ -71,48 +71,49 @@
 <div class="books9">
 <h1 class="text-center pt-3">David Mayer books</h1>
 <div class="slick-slider d-flex">
-  <div class="element element-1">
-    <img src="img/book1.png" />
-    <a class="gold-button1">BUY HERE</a>
+  <div class="element element-1 ">
+    <img src="img/book1.png" width="247" height="386"/>
+    <a class="gold-button1" >BUY HERE</a>
+
   </div>
   <div class="element element-2">
-    <img src="img/brokenties.png" />
+    <img src="img/brokenties.png" width="247" height="386"/>
     <a class="gold-button1">BUY HERE</a>
   </div>
   <div class="element element-3">
-    <img src="img/broken-people.png" />
+    <img src="img/broken-people.png" width="247" height="386"/>
     <a class="gold-button1">BUY HERE</a>
   </div>
   <div class="element element-4">
-    <img src="img/book2.png">
+    <img src="img/book2.png" width="247" height="386">
     <a class="gold-button1">BUY HERE</a>
   </div>
   <div class="element element-5">
-    <img src="img/fury.png">
+    <img src="img/fury.png" width="247" height="386">
     <a class="gold-button1">BUY HERE</a>
   </div>
   <div class="element element-6">
-    <img src="img/ice-storm.png">
+    <img src="img/ice-storm.png"width="247" height="386">
     <a class="gold-button1">BUY HERE</a>
   </div>
   <div class="element element-7">
-    <img src="img/vapor.png">
-    <a class="gold-button1">BUY HERE</a>
+    <img src="img/vapor.png" width="247" height="386">
+      <a class="gold-button1">BUY HERE</a>
   </div>
   <div class="element element-8">
-    <img src="img/torrent.png">
-    <a class="gold-button1">BUY HERE</a>
+    <img src="img/torrent.png"   width="247" height="386">
+      <a class="gold-button1">BUY HERE</a>
   </div>
   <div class="element element-9">
-    <img src="img/behamont.png">
+    <img src="img/behamont.png" width="247" height="386">
     <a class="gold-button1">BUY HERE</a>
   </div>
   <div class="element element-10">
-    <img src="img/book3.png">
+    <img src="img/book3.png" width="247" height="386">
     <a class="gold-button1">BUY HERE</a>
   </div>
   <div class="element element-11">
-<img src="img/book4.png">
+<img src="img/book4.png" width="247" height="386">
 <a class="gold-button1">BUY HERE</a>
   </div>
 </div>
@@ -161,7 +162,18 @@
    infinite:false,
    slidesToScroll: 1,
     autoplay: true,
-   autoplaySpeed: 2000
+   autoplaySpeed: 2000,
+   responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    },
+  ]
      // dots: false, Boolean
     // arrows: false, Boolean
   });

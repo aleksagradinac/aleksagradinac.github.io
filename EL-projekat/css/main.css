@@ -26,7 +26,7 @@ h1,h2,h3,h4,h5 {
         position: absolute;
         bottom: 40px;
         background-color: #C6AB69;
-        margin-top: 10px;
+        margin-top: 50px;
         padding: 10px 60px;
         text-decoration: none;
         color: black;
@@ -153,6 +153,10 @@ color: #C6AB69;
 .sing-in .row {
 margin-left: 505px;
 }
+.map {
+    margin-left: 180px;
+}
+
   form{
     border-left: 2px solid #C6AB69;
     border-right: 2px solid #C6AB69;
@@ -175,6 +179,20 @@ margin-left: 505px;
         color: #C6AB69;
       }
     
+      .books9 {
+        background-color: #282424;
+      }
+      .books9 h1 {
+        color: #C6AB69;
+      }
+      .accordion-button {
+        background-color: rgb(73, 68, 68);
+        color: #C6AB69;
+      }
+      .accordion-body {
+        background-color: #000;
+        color: white;
+      }
   .last-div {
     background-color: #282424;
     padding-top: 80px;
@@ -298,12 +316,40 @@ color: #D8D8D8;
    right: 10px;
    color: #C6AB69;
 }
+.slick-slider img {
+    display: block;
+    margin-bottom: 100px !important;
+}
+.slick-slider .gold-button {
+    margin-top: 20px;
+}
 @media only screen and (max-width: 1024px) {
 .col-4 {
     width: 100%;
 }
+.start {
+    padding-bottom: 30px;
+}
+.navigation {
+    display: grid;
+}
+.start .start-left {
+    margin-top: 180px;
+}
 .books-right {
     padding-left: 0px;
+    padding-top: 20px;
+}
+.story-blog img {
+    width: 100%;
+    padding-top: 20px;
+}
+.FAQ {
+    padding-top: 20px;
+}
+.sing-in .row {
+    width: 100%;
+    margin-left: 0px;
 }
 .about-right {
     padding-left: 0px;
@@ -314,6 +360,13 @@ color: #D8D8D8;
 .book1 {
     width: 100%;
     padding-top: 10px;
+}
+.broken-nature .col-8 {
+    width: 100%;
+    padding-top: 20px;
+}
+.how-started img {
+    width: 100%;
 }
 .last-div .container1 {
     margin-left: 0px;
@@ -345,7 +398,15 @@ color: #D8D8D8;
 .slick-slider .element img {
     height: 100% !important;
 }
-
+.gmap_canvas {
+    width: 370px !important;
+}
+.map {
+    margin-left: 0px;
+}
+.mapouter {
+    width: 0px;
+}
 .slick-slider .element{
   color:#fff;
   height: 400px;
