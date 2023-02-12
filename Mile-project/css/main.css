@@ -1,0 +1,311 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica Neue", sans-serif;
+}
+html,
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.position-relative {
+  background-image: url(../img/Lines.png);
+  background-size: cover;
+background-position: center;
+background-color: black;
+
+}
+.black-button {
+        background-color:black;
+        padding: 10px 60px;
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        font-size: 16px;
+border-radius: 30px;
+}
+.black-button:hover {
+  background-color: #3b84c8;
+  color: white;
+}
+.blue-button{
+  background-color: #2E9AFE;
+  padding: 10px 60px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+border-radius: 40px;
+}
+.blue1-button {
+ background-color: #2E9AFE;
+  padding: 10px 60px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+border-radius: 40px;
+width: 94%;
+}
+.blue1-button:hover {
+  background-color: white;
+  color: black;
+}
+.info3 p {
+  font-size: smaller;
+  
+}
+.white-button {
+  background-color: white;
+  padding: 10px 60px;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 16px;
+border-radius: 40px;
+width: 94%;
+}
+.white-button:hover {
+  background-color:#2E9AFE;
+  color: white;
+}
+
+.date-button {
+  background-color: #E3EFFA;
+ width: 84px;
+ height: 30px;
+ font-size: 8px;
+  border-radius: 40px;
+}
+.blue-button:hover {
+  background-color: white;
+  color: black;
+}
+.CERTIFIED-INTEGRATION {
+  background-image: url(../img/bg.png);
+  background-size: cover;
+background-position: center;
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+}
+.products .col-3 {
+  background-color:  #F7F8F9;
+  padding-top: 20px;
+  margin: 30px;
+  width: 283px;
+  height: 273px;
+}
+.products .row {
+  align-items: center;
+  justify-content: center;
+}
+.nav-link {
+  display: revert;
+}
+.no-problem .row{
+  background-color:  #F7F8F9;
+
+}
+.text img {
+  width: 40px;
+  height: 21px;
+}
+.accordion-button::after {
+ background-image: url(../img/Group\ 40.png);
+}
+.accordion-button:hover {
+  background-color: #F7F8F9;
+  color: grey;
+}
+.accordion-body{
+  background-color: #F7F8F9;
+}
+.news .col-3 {
+  background-color: #F7F8F9;
+  width: 362px;
+  height: 409px;
+    padding-top: 20px;
+    margin: 30px;
+}
+.news .col-3 img {
+width: 100%;
+}
+.last-div {
+  background-color: black;
+  background-image: url(../img/Lines\ \(2\).png);
+  background-size: cover;
+background-position: center;
+
+}
+.contact {
+  background-color: white;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.position-relative {
+  background-image: url(../img/lines\ \(1\).png);
+  background-size: cover;
+background-position: center;
+background-color: black;
+}
+.our-info {
+  background-color: #F7F8F9;
+}
+.info3{
+  border: 2px solid #D9D9D9; 
+  border-radius: 10px;
+}
+.contact .col-5 {
+  margin: 40px;
+}
+button, input, optgroup, select, textarea {
+  margin-bottom: 30px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  width: 500px;
+  height: 47px;
+  padding-left: 10px;
+font-weight: 0px;
+}
+.contact .col-3 {
+  background-color: #F7F8F9;
+  margin: 20px;
+  padding: 10px;
+  width: 287px;
+}
+.who-we-are {
+  background-color: white;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+
+}
+.who-we-are .col-12 {
+  background-color: #F6F6F6;
+}
+.background-product {
+  width: 199px;
+  height: 235px;
+  margin-left: 20px;
+}
+.background-product p {
+  font-size: 14px;
+}
+.background-product .img {
+  text-align: -webkit-right;
+ padding-right: 10px;
+  padding-top: 10px;
+  display: none;
+  
+}
+.background-product .img img {
+  display: block;
+}
+.background-product:hover .img {
+  display: block;
+}
+.news1 {
+  background-color: white;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+
+}
+.news1 .col-3 {
+  background-color: #F7F8F9;
+  width: 362px;
+  height: 409px;
+    padding-top: 20px;
+    margin: 30px;
+}
+.news1 .col-3 img {
+width: 100%;
+}
+.tabs1 {
+  background-color: white;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+
+}
+.tabs1 .col-2 h5 {
+  font-size: 16px;
+}
+@media only screen and (max-width: 1024px) {
+  .position-relative .row {
+    display: grid;
+  }
+  .position-relative .col-9 {
+    display: grid;
+  }
+  .position-relative .col-3 .black-button {
+margin-bottom: 20px;
+  }
+  .position-relative .col-12 h1 {
+    font-size: 22px;
+  }
+  .position-relative .col-12 img {
+width: 100%;
+  }
+  .CERTIFIED-INTEGRATION .col-3 {
+    padding-top: 20px;
+    padding-bottom: 20px
+  }
+.logos .col-12 img {
+  padding-bottom: 20px;
+}
+.products .row {
+  justify-content: start;
+}
+.benefits .row {
+  display: block;
+}
+.benefits .col-4 {
+  width: 70%;
+}
+.no-problem {
+  display: inline-block;
+  padding-top: 20px;
+}
+.no-problem .row {
+display: grid;
+}
+.no-problem  .rb img {
+  width: 100%;
+}
+.who-can-benefit .col-6 {
+  width: 83%;
+}
+.news .col-3 {
+  width: 65%;
+}
+.last-div .row {
+  display: grid;
+}
+.last-div p {
+padding-bottom: 10px;
+}
+.contact .our-info .col-5 {
+  width: 100%;
+}
+.contact .input input {
+  width: 233px;
+}
+.amc .row {
+  display: block;
+}
+.amc .col-4 {
+  width: 100%;
+}
+.who-we-are .col-3 {
+  width: 100%;
+}
+.who-we-are .col-4 {
+  width: 100%;
+}
+.news1 .col-3 {
+  width: 65%;
+}
+}
