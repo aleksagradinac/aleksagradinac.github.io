@@ -301,6 +301,12 @@ width: 100%;
   .CERTIFIED-INTEGRATION .row {
     display: block;
   }
+  .no-problem .col-6 {
+    width: 100%;
+  }
+  .no-problem .rb .col-6 {
+    width: 100%;
+  }
 .logos .col-12 img {
   padding-bottom: 20px;
 }
@@ -326,8 +332,11 @@ display: grid;
 .who-can-benefit .col-6 {
   width: 83%;
 }
+.who-can-benefit .accordion-item {
+  width: 100%;
+}
 .news .col-3 {
-  width: 65%;
+  width: 100%;
 }
 .last-div .row {
   display: grid;
@@ -367,6 +376,7 @@ padding-bottom: 10px;
   width: 100%;
 }
 .news1 .col-3 {
-  width: 65%;
+  width: 100%;
+  height: 100%;
 }
 }
