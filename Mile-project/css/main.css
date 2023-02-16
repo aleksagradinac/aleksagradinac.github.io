@@ -345,11 +345,15 @@ display: grid;
 .last-div p {
 padding-bottom: 10px;
 }
-.contact .our-info .col-5 {
-  width: 100%;
+.contact .col-5 {
+width: 100%;
+height: 100%;
+margin-left: 0px;
+padding-top: 20px;
 }
-.contact .input input {
-  width: 233px;
+.contact input {
+  width: 100%;
+  height: 100%;
 }
 .top-view-port .row {
   display: block;
@@ -359,7 +363,10 @@ padding-bottom: 10px;
 }
 .top-view-port  .col-3 {
   display: grid;
-  width: 44%;
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 21px;
+  padding: 20px;
 }
 .top-view-port .black-button {
   margin-bottom: 10px;
