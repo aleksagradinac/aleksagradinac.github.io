@@ -16,20 +16,21 @@ body {
   background-image: url(../img/Lines.png);
   background-size: cover;
 background-position: center;
-background-color: black;
-
+background-color: #1c1919;
 }
+
 .black-button {
         background-color:black;
         padding: 10px 60px;
         text-decoration: none;
         color: white;
+        border:  2px solid #2E9AFE;
         font-weight: 700;
         font-size: 16px;
 border-radius: 30px;
 }
 .black-button:hover {
-  background-color: #3b84c8;
+  background-color: #225687;
   color: white;
 }
 .blue-button{
@@ -92,6 +93,12 @@ background-position: center;
 border-top-left-radius: 30px;
 border-top-right-radius: 30px;
 }
+.CERTIFIED-INTEGRATION p {
+font-size: 12px;
+}
+.CERTIFIED-INTEGRATION .col-3 {
+  padding-top: 14px;
+}
 .products .col-3 {
   background-color:  #F7F8F9;
   padding-top: 20px;
@@ -108,14 +115,28 @@ border-top-right-radius: 30px;
 }
 .no-problem .row{
   background-color:  #F7F8F9;
+  padding: 40px 40px;
 
 }
 .text img {
   width: 40px;
   height: 21px;
 }
+.accordion-item {
+  width: 620px;
+  height: 77px;
+}
+.accordion-item:hover {
+  background-color: #F7F8F9;
+  color: grey;
+}
+
+.accordion-item {
+  padding-top: 12px;
+}
 .accordion-button::after {
  background-image: url(../img/Group\ 40.png);
+
 }
 .accordion-button:hover {
   background-color: #F7F8F9;
@@ -123,6 +144,9 @@ border-top-right-radius: 30px;
 }
 .accordion-body{
   background-color: #F7F8F9;
+}
+.news a {
+  display: contents;
 }
 .news .col-3 {
   background-color: #F7F8F9;
@@ -135,22 +159,27 @@ border-top-right-radius: 30px;
 width: 100%;
 }
 .last-div {
-  background-color: black;
+  background-color:  #1c1919;
   background-image: url(../img/Lines\ \(2\).png);
   background-size: cover;
 background-position: center;
-
+}
+.last-div a {
+  text-decoration: none;
+}
+.last-div .col-3 {
+  display: grid;
 }
 .contact {
   background-color: white;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
 }
-.position-relative {
+.position-relative1 {
   background-image: url(../img/lines\ \(1\).png);
   background-size: cover;
 background-position: center;
-background-color: black;
+background-color: #1c1919;
 }
 .our-info {
   background-color: #F7F8F9;
@@ -184,6 +213,15 @@ font-weight: 0px;
   border-top-right-radius: 30px;
 
 }
+.news1 h1 {
+padding-left: 150px;
+}
+.news1 li {
+  padding-left: 150px;
+}
+.news1 p {
+  padding-left: 150px;
+}
 .who-we-are .col-12 {
   background-color: #F6F6F6;
 }
@@ -214,6 +252,9 @@ font-weight: 0px;
   border-top-right-radius: 30px;
 
 }
+.news1 a {
+  display: contents;
+}
 .news1 .col-3 {
   background-color: #F7F8F9;
   width: 362px;
@@ -228,10 +269,14 @@ width: 100%;
   background-color: white;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-
 }
 .tabs1 .col-2 h5 {
   font-size: 16px;
+}
+.tabs1 .accordion-item {
+  width: 232px;
+  height: 242px;
+  margin: 15px;
 }
 @media only screen and (max-width: 1024px) {
   .position-relative .row {
@@ -252,6 +297,9 @@ width: 100%;
   .CERTIFIED-INTEGRATION .col-3 {
     padding-top: 20px;
     padding-bottom: 20px
+  }
+  .CERTIFIED-INTEGRATION .row {
+    display: block;
   }
 .logos .col-12 img {
   padding-bottom: 20px;
@@ -292,6 +340,19 @@ padding-bottom: 10px;
 }
 .contact .input input {
   width: 233px;
+}
+.top-view-port .row {
+  display: block;
+}
+.top-view-port .col-9 {
+  display: grid;
+}
+.top-view-port  .col-3 {
+  display: grid;
+  width: 44%;
+}
+.top-view-port .black-button {
+  margin-bottom: 10px;
 }
 .amc .row {
   display: block;
