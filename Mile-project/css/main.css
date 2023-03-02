@@ -12,6 +12,48 @@ body {
   padding: 0;
   margin: 0;
 }
+
+ul {
+list-style: none;
+}
+ul li {
+  display: inline-block;
+  position: relative;
+}
+ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 15px;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+}
+ul li ul.dropdown li {
+  display: block;
+}
+ul li ul.dropdown {
+  width: 345px;
+  position: absolute;
+  z-index: 999;
+  display: none;
+  background-color:white;
+  border-radius: 10px;
+  
+}
+ul li:hover ul.dropdown {
+  display: block;
+}
+.element {
+  width: 100%;
+}
+.element img {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+.element p {
+  font-size: 13px;
+}
 .position-relative {
   background-image: url(../img/Lines.png);
   background-size: cover;
@@ -396,5 +438,8 @@ padding-top: 20px;
 }
 .news1 li {
   padding-left: 0px;
+}
+ul li ul.dropdown {
+width: 300px;
 }
 }
