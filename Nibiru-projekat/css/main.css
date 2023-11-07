@@ -1,0 +1,459 @@
+html, body, :root {
+    font-family: 'Montserrat' !important;
+
+}
+h1 h2 h3 h4 h5 h6 {
+    font-family: 'Montserrat' !important;
+ }
+ p {
+    font-family: 'Poppins' !important;
+ }
+ .navigation {
+    flex: 1;
+    justify-content: center;
+ }
+ .blue-button {
+    background-color: #009EFF;
+    border-radius: 10px;
+    padding: 9px 1px;
+    margin-right: 34px;
+
+}
+.white-button {
+    background-color: #fFF;
+    border-radius: 10px;
+    padding: 14px 21px;
+    margin-right: 34px;
+  
+}
+.BUSINESS h1 {
+    font-size: 80px;
+}
+h1 b1 {
+    color:#009EFF
+}
+.input .col-6 input {
+    width: 344px;
+    height: 46px;
+    border-radius: 10px;
+    border: 1px solid #8A8A8A;
+    padding-left: 20px;
+}
+.input .blue-button {
+    background-color: #009EFF;
+    border-radius: 10px;
+    padding: 9px 1px;
+    margin-right: 34px;
+height: 44px;
+}
+.logos  .col-4 img {
+    width: 80px;
+    height: 74px;
+}
+.negative-margine {
+    margin-top: -100px;
+}
+.last-div {
+    background-color: #009EFF;
+}
+.last-div .col-3 {
+    display: grid;
+}
+.last-div a {
+    text-decoration: none;
+
+}
+.col-7 input {
+    width: 344px;
+    height: 47px;
+    border-radius: 10px;
+    border: 1px solid #8A8A8A;
+    padding-left: 20px;
+}
+.col-12 input {
+    width: 730px;
+}
+.col-7 .blue-button {
+    width: 345px;
+}
+.services .col-4  {
+    padding-left: 35px;
+}
+.card {
+    border-radius: 20px;
+    background-color: #fff;
+    width: 400p;
+}
+.card1 {
+    border-radius: 20px;
+    background-color: #009EFF;
+    color: white;
+    border: solid #fff;
+width: 403px;
+}
+.slide-content {
+    margin: 14px 50px;
+    text-align: center;
+    padding: 0 10px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.toggle-btn {
+	padding: 10px 40px;
+	cursor: pointer;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+	text-align: center;
+}
+.button-box {
+    width: 220px;
+	margin: 5px auto;
+	position: relative;
+	border-radius: 10px;
+	background: #fff;
+    display: flex;
+    border: 1px solid #009EFF;
+}
+.card1 .button-box {
+    width: 220px;
+	margin: 5px auto;
+	position: relative;
+	border-radius: 10px;
+	background: #fff;
+    display: flex;
+    border: 1px solid#fFF;
+}
+
+#btn {
+    left: 0;
+	top: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: #009EFF;
+	border-radius: 10px;
+	transition: .5s;
+}
+.slide-container {
+    max-width: 11200px;
+    width: 80%;
+    background-color: #009EFF;
+    padding: 40px 0;
+}
+.card-content h1 {
+    color: #009EFF;
+}
+.pricing-list {
+    background-color: #009EFF;
+}
+
+.swiper-button-next {
+    background-color: white;
+    padding: 27px 27px;
+    border-radius: 30px;
+    margin-right: -10px;
+}
+.card1  .button .white-button {
+    width: 381px; 
+    margin-right: 0px;
+}
+.swiper-button-prev {
+    background-color: white;
+    padding: 27px 27px;
+    border-radius: 30px;
+    margin-left: -10px;
+   
+}
+.bg-img-property {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.big-image {
+    height: 568px;
+}
+.small-image {
+    height: 284px;
+}
+.pricing-list .button .blue-button {
+    width: 381px; 
+    margin-right: 0px;
+}
+.tel-icon {
+    display: none;
+}
+.galery .col-6 img {
+    width: 558px;
+    height: 568px;
+}
+.galery .col-4 button {
+    width: 46px;
+    height: 42px;
+    background-color: #009EFF;
+    border: none;
+    border-radius: 14px;
+}
+.galery .col-4 {
+    width: 279px;
+    height: 52px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    border: 1px solid #8A8A8A;
+    padding-left: 20px;
+}
+.galery .col-8 .blue-button {
+    background-color: #009EFF;
+    border-radius: 10px;
+    padding: 12px 1px;
+    margin-right: 34px;
+}
+.galery .col-4 input {
+    width: 200px;
+    height: 42px;
+    border:none;
+
+}
+search:before {
+    content: "\f002";
+}
+@media only screen and (max-width: 1024px) {
+
+.position-relative .navigation {
+    display: none;
+}
+.position-relative .sign-in {
+    display: none;
+}
+.tel3 {
+    display: flex !important;
+}
+.tel3 img {
+    height: 66px;
+}
+.tel3 p {
+    font-size: 12px;
+}
+.tel3 .col-9 {
+    margin-left: 50px;
+}
+.comp {
+    display: none !important;
+}
+.swiper-button-next {  
+    border-radius: 30px;
+}
+.Tel .card-image {
+    padding-left: 20px;
+    padding-bottom:22px ;
+}
+.swiper-button-prev {
+       background: none;
+}
+.swiper-button-next {
+    background: none;
+}
+
+
+.Tel .slide-container {
+background-color: #fFF;
+border: none;
+}
+.position-relative .tel-icon {
+    display: flex;
+margin-left: 170px;}
+.BUSINESS .row {
+    display: block;
+}
+.BUSINESS .col-3 {
+    display: none;
+}
+.BUSINESS .col-2 {
+    display: none;
+}
+.BUSINESS h1 {
+    font-size: 25px;
+}
+.BUSINESS .col-9 {
+    text-align: center;
+    width: 100%;
+}
+.BUSINESS .col-6 img {
+    width: 100%;
+}
+.BUSINESS .col-6 {
+    width: 98%;
+}
+.input .row {
+    display: block;
+}
+.input .col-12 h2 {
+    font-size: 20px;
+}
+.input .col-6 {
+    width: 100%;
+}
+.input .col-6 p {
+    font-size: 10px;
+}
+.input  .col-6 input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.input  .col-6 .blue-button {
+    width: 100%;
+}
+.about h1 {
+    font-size: 27px;
+}
+.about .row {
+    display: block;
+}
+.about .row .col-3 img {
+    width: 97%;
+}
+.about .row .col-3 {
+    width: 100%;
+}
+.about .row .col-8 {
+    width: 100%;
+}
+.accordion-item {
+    width: 130%;
+}
+
+.about .col-4 {
+    display: none;
+}
+.services .row {
+    display: block;
+}
+.services .col-7 {
+width: 100%;
+}
+.services .row {
+    display: flex;
+    width: 100%;
+}
+.services .row h3 {
+font-size: 20px;
+}
+.services .row p {
+    font-size: 15px;
+}
+.services .col-5 {
+    width: 100%;
+}
+.services .col-5 img {
+    width: 98%;
+}
+.card .swiper-slide {
+    display: block;
+}
+.card1 .swiper-slide {
+    display: block;
+}
+.services .col-4 {
+    display: none;
+}
+.slide-content {
+    width: 100%;
+    font-size: 12px;
+     margin: 0;
+}
+.card-content {
+    display: block;
+}
+.card-image .text  p {
+font-size: 12px;
+}
+.n {
+    display: none;
+}
+.swiper-button-next {
+display: none;
+}
+.swiper-button-prev {
+display: none;   
+}
+.pricing-list  .button .blue-button {
+    width: 100%;
+}
+.pricing-list  .button .white-button {
+    width: 100%;
+}
+.galery .col-4  {
+    display: none ;
+}
+.galery .col-8 .blue-button {
+margin: 0;
+}
+.galery .col-8 {
+    width: 100%;
+}
+ .lg .row {
+    display: none;
+}
+.galery .col-3 {
+    width: 33%;
+    height: 150px;
+}
+.galery .col-2 {
+    width: 25%;
+    height: 120px;
+}
+
+.galery .row .col-12 {
+    display: none;
+}
+.big-image {
+height:200px;
+}
+.slide-container {
+    width: 100%;
+}
+.for-clients .f  {
+    display: block;
+}
+.for-clients .f .col-6 {
+    width: 100%;
+}
+.for-clients .row .a .col-6 {
+width: 50%;
+}
+.for-clients .row .a {
+    display: flex;
+}
+.for-clients .row .col-5 {
+    display: none;
+}
+.for-clients .row .col-7 {
+    width: 100%;
+} 
+.for-clients .row .col-7 input {
+width: 100%;
+font-size: 12px;
+}
+.con {
+    display: block;
+}
+.con .col-4 {
+    width: 100%;
+}
+.q {
+    display: none;
+}
+.last-div{
+    background-color: black;
+    
+}
+.last-div  .row{
+    display: block;
+}
+.last-div .row .col-6 .col-6 {
+    width: 110%;
+    font-size: 12px;
+}
+}

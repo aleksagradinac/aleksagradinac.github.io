@@ -1,0 +1,68 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica Neue", sans-serif;
+}
+html,
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.navigation {
+  background-image: url(../img/pozadina.png);
+    background-size: cover;
+    background-position: center;
+}
+.navigation h1 {
+  text-align: center;
+  padding-top: 120px;
+  font-size: 50px;
+  color: white;
+  padding-bottom: 10px;
+}
+.nav {
+  text-align: center;
+}
+.nav a {
+  padding-right: 10px;
+  text-decoration: none;
+font-size: 21px;
+color: white;
+}
+.nav img {
+  width: 80px;
+  height: 80px;
+  padding-top: 20px;
+}
+.last-div .container {
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 40px;
+}
+.last-div h1 {
+  font-size: 30px;
+  padding-top: 10px;
+}
+.last-div p {
+  color: white;
+}
+.last-part {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+
+}
+.last-part a {
+  text-decoration: none;
+  color: white;
+}
+.contact p {
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  padding-top: 10px;
+}
